@@ -1,0 +1,32 @@
+Active RF plugins: libsrsran_rf_zmq.so
+Inactive RF plugins: 
+---  Software Radio Systems LTE eNodeB  ---
+
+Reading configuration file /srsran_copy/enb.conf...
+Couldn't open sib.conf, trying /root/.config/srsran/sib.conf
+Couldn't open /root/.config/srsran/sib.conf either, trying /etc/srsran/sib.conf
+Couldn't open rr.conf, trying /root/.config/srsran/rr.conf
+Couldn't open /root/.config/srsran/rr.conf either, trying /etc/srsran/rr.conf
+Couldn't open rb.conf, trying /root/.config/srsran/rb.conf
+Couldn't open /root/.config/srsran/rb.conf either, trying /etc/srsran/rb.conf
+
+Built in Release mode using commit f2dff0b7a on branch HEAD.
+
+Opening 1 channels in RF device=zmq with args=fail_on_disconnect=true,tx_port=tcp://*:2000,rx_port=tcp://localhost:2001,id=enb,base_srate=11.52e6
+Supported RF device list: zmq file
+CHx base_srate=11.52e6
+CHx id=enb
+Current sample rate is 1.92 MHz with a base rate of 11.52 MHz (x6 decimation)
+CH0 rx_port=tcp://localhost:2001
+CH0 tx_port=tcp://*:2000
+CH0 fail_on_disconnect=true
+NG connection successful
+
+==== eNodeB started ===
+Type <t> to view trace
+Current sample rate is 11.52 MHz with a base rate of 11.52 MHz (x1 decimation)
+Current sample rate is 11.52 MHz with a base rate of 11.52 MHz (x1 decimation)
+Setting frequency: DL=1842.5 Mhz, UL=1747.5 MHz for cc_idx=0 nof_prb=52
+RACH:  slot=171, cc=0, preamble=0, offset=0, temp_crnti=0x4601
+Stopping ..
+Saving MAC PCAP (DLT=149) to /tmp/enb_mac_nr.pcap

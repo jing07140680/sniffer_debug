@@ -1,0 +1,20 @@
+Active RF plugins: libsrsran_rf_zmq.so
+Inactive RF plugins: 
+---  Software Radio Systems LTE eNodeB  ---
+
+Reading configuration file /srsran_copy/enb.conf...
+Couldn't open sib.conf, trying /root/.config/srsran/sib.conf
+Couldn't open /root/.config/srsran/sib.conf either, trying /etc/srsran/sib.conf
+Couldn't open rr.conf, trying /root/.config/srsran/rr.conf
+Couldn't open /root/.config/srsran/rr.conf either, trying /etc/srsran/rr.conf
+Couldn't open rb.conf, trying /root/.config/srsran/rb.conf
+Couldn't open /root/.config/srsran/rb.conf either, trying /etc/srsran/rb.conf
+
+Built in Release mode using commit f2dff0b7a on branch HEAD.
+
+Error processing arguments.
+
+/var/tmp/srsRAN_4G/srsenb/src/enb_cfg_parser.cc:1818: DL-ARFCN 368410 in band n3 not supported with coreset0 config.
+/var/tmp/srsRAN_4G/srsenb/src/enb_cfg_parser.cc:1819: Valid ARFCNs for band n3 are: 363500, 368500, 369500, 374500, 375000,
+Error deriving NR cell parameters
+Error processing arguments.
