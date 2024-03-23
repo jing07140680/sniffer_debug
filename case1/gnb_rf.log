@@ -1,0 +1,11 @@
+Lower PHY in executor blocking mode.
+Available radio types: zmq.
+
+--== srsRAN gNB (commit 49a07c710) ==--
+
+Connecting to AMF on 127.0.0.5:38412
+Cell pci=1, bw=10 MHz, dl_arfcn=368410 (n3), dl_freq=1842.05 MHz, dl_ssb_arfcn=368410, ul_freq=1747.05 MHz
+
+==== gNodeB started ===
+Type <t> to view trace
+Stopping ..
