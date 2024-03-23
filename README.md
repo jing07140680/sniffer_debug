@@ -23,4 +23,4 @@ Do the connection check first, passed.
 force DL center frquency to be the same as SSB, failed.
 
 Maybe I should force ssb cf aligend with DL frequency instead?
-
+The reason I moved DL cf is because I tried to move SSB but seems there is an algorithm about how to choose best SSB in frequency so that it has less overlapp with some other blocks (cannot remeber) in newest release. Not sure if it is the case in this release, might need to check.
