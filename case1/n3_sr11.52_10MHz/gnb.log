@@ -1,0 +1,551 @@
+2024-03-23T21:29:13.864213 [GNB     ] [W] CPU0 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864250 [GNB     ] [W] CPU1 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864267 [GNB     ] [W] CPU2 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864283 [GNB     ] [W] CPU3 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864300 [GNB     ] [W] CPU4 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864315 [GNB     ] [W] CPU5 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864331 [GNB     ] [W] CPU6 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864347 [GNB     ] [W] CPU7 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864363 [GNB     ] [W] CPU8 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864379 [GNB     ] [W] CPU9 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864400 [GNB     ] [W] CPU10 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864416 [GNB     ] [W] CPU11 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864431 [GNB     ] [W] CPU12 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864448 [GNB     ] [W] CPU13 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864464 [GNB     ] [W] CPU14 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864480 [GNB     ] [W] CPU15 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864497 [GNB     ] [W] CPU16 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864513 [GNB     ] [W] CPU17 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864528 [GNB     ] [W] CPU18 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864545 [GNB     ] [W] CPU19 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864560 [GNB     ] [W] CPU20 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864577 [GNB     ] [W] CPU21 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864592 [GNB     ] [W] CPU22 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864608 [GNB     ] [W] CPU23 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864633 [GNB     ] [W] CPU24 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864648 [GNB     ] [W] CPU25 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864664 [GNB     ] [W] CPU26 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864679 [GNB     ] [W] CPU27 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864695 [GNB     ] [W] CPU28 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864711 [GNB     ] [W] CPU29 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864726 [GNB     ] [W] CPU30 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864741 [GNB     ] [W] CPU31 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:29:13.864762 [GNB     ] [W] DRM KMS polling is enabled, which may hinder performance. You can disable it using the "srsran_performance" script
+2024-03-23T21:29:13.865070 [PCAP    ] [E] Failed to open file /tmp/gnb_ngap.pcap for writing: Permission denied
+2024-03-23T21:29:13.865347 [PCAP    ] [E] Failed to open file /tmp/gnb_mac.pcap for writing: Permission denied
+2024-03-23T21:29:13.870088 [NGAP    ] [I] Sending NgSetupRequest
+2024-03-23T21:29:13.870322 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:13.882594 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:13.908311 [zmq:tx:0:0] [I] Binding to address tcp://127.0.0.1:2000.
+2024-03-23T21:29:13.944737 [zmq:rx:0:0] [I] Connecting to address tcp://127.0.0.1:2001.
+2024-03-23T21:29:14.152284 [SCHED   ] [I] [     0.0] Cell with cell_index=0 was configured.
+2024-03-23T21:29:15.537351 [UL-PHY0 ] [I] [    17.4] PRACH:  rssi=+95.6dB detected_preambles=[{idx=0 ta=0.00us power=+183.3dB snr=0.0dB}] t=1506.5us
+2024-03-23T21:29:15.537481 [SCHED   ] [I] [    17.8] Slot decisions cell=0 t=33us: RAR: ra-rnti=0x39 prb=[0..3) tbs=9
+2024-03-23T21:29:15.537658 [DL-PHY2 ] [I] [    17.8] PDCCH: rnti=0x0039 ss_id=1 format=1_0 cce=0 al=4 t=91.0us
+2024-03-23T21:29:15.537760 [DL-PHY2 ] [I] [    17.8] PDSCH: rnti=0x0039 prb=[0, 3) symb=[2, 14) mod=QPSK rv=0 tbs=9 t=95.5us
+2024-03-23T21:29:15.542808 [SCHED   ] [I] [    18.4] Slot decisions cell=0 t=15us: UL: ue=1024 rnti=0x4601 h_id=0 ss_id=1 prb=[3..6) rv=0 tbs=11
+2024-03-23T21:29:15.548053 [UL-PHY0 ] [I] [    18.4] PUSCH: rnti=0x4601 h_id=0 prb=[3, 6) symb=[0, 14) mod=QPSK rv=0 tbs=11 crc=OK iter=1.0 snr=83.4dB t=861.5us
+2024-03-23T21:29:15.548145 [MAC     ] [I] [    18.8] UL PDU rnti=0x4601 subPDUs: [CCCH48: len=6, SBSR: lcg=0 bs=1, PAD: len=1]
+2024-03-23T21:29:15.548171 [MAC     ] [W] [    18.8] UL subPDU rnti=0x4601 lcid=61 CE: Discarding MAC CE. Cause: C-RNTI is not associated with any existing UE
+2024-03-23T21:29:15.548202 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.548746 [RLC     ] [I] ue=0 SRB0 DL: RLC TM created.
+2024-03-23T21:29:15.548754 [RLC     ] [I] ue=0 SRB0 UL: RLC TM created.
+2024-03-23T21:29:15.548772 [RLC     ] [I] ue=0 SRB1 DL: RLC AM configured. tx_sn_size=12 t_poll_retx=45 max_retx=8 poll_pdu=-1 poll_byte=-1
+2024-03-23T21:29:15.548800 [RLC     ] [I] ue=0 SRB1 UL: RLC AM configured. rx_sn_size=12 t_reassembly=35 t_status_prohibit=0
+2024-03-23T21:29:15.550503 [RLC     ] [I] ue=0 SRB0 UL: RX SDU. sdu_len=6
+2024-03-23T21:29:15.550817 [RRC     ] [I] ue=0 CCCH UL rrcSetupRequest
+2024-03-23T21:29:15.550847 [PDCP    ] [I] ue=0 SRB1 DL: PDCP configured. rb_type=SRB rlc_mode=AM sn_size=12 discard_timer=0 count_notify=3221225472 count_max=4294967294
+2024-03-23T21:29:15.550852 [PDCP    ] [I] ue=0 SRB1 UL: PDCP configured. rb_type=SRB rlc_mode=AM sn_size=12 t_reordering=-1 count_notify=3221225472 count_max=3489660928
+2024-03-23T21:29:15.550882 [RRC     ] [I] ue=0 CCCH DL rrcSetup
+2024-03-23T21:29:15.551014 [RLC     ] [I] ue=0 SRB0 DL: TX SDU. sdu_len=254 queued_sdus=1 queued_bytes=254
+2024-03-23T21:29:15.551789 [SCHED   ] [I] [    19.2] Slot decisions cell=0 t=40us: DL: ue=0 c-rnti=0x4601 prb=[0..40) h_id=0 ss_id=1 k1=4 rv=0 tbs=269
+2024-03-23T21:29:15.551815 [RLC     ] [I] ue=0 SRB0 DL: TX PDU. pdu_len=254 grant_len=259
+2024-03-23T21:29:15.551823 [MAC     ] [I] [    19.2] DL PDU: ue=0 rnti=0x4601 size=269: CON_RES: id=1cc092c024c6, SDU: lcid=0 size=256
+2024-03-23T21:29:15.551894 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.552021 [DL-PHY0 ] [I] [    19.2] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=97.2us
+2024-03-23T21:29:15.552236 [DL-PHY0 ] [I] [    19.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 40) symb=[2, 14) mod=QPSK rv=0 tbs=269 t=210.3us
+2024-03-23T21:29:15.560369 [UL-PHY0 ] [I] [    19.6] PUCCH: rnti=0x4601 format=1 prb1=3 prb2=48 symb=[0, 14) cs=0 occ=0 ack=2 t=307.3us
+2024-03-23T21:29:15.569786 [UL-PHY0 ] [I] [    19.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.8us
+2024-03-23T21:29:15.573917 [SCHED   ] [I] [    20.6] Slot decisions cell=0 t=36us: DL: ue=0 c-rnti=0x4601 prb=[0..40) h_id=0 ss_id=1 k1=4 rv=2 tbs=269
+2024-03-23T21:29:15.574086 [DL-PHY6 ] [I] [    20.6] PDCCH: rnti=0x4601 ss_id=1 format=1_0 cce=0 al=4 t=87.8us
+2024-03-23T21:29:15.574304 [DL-PHY6 ] [I] [    20.6] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 40) symb=[2, 14) mod=QPSK rv=2 tbs=269 t=212.2us
+2024-03-23T21:29:15.582247 [UL-PHY0 ] [I] [    21.0] PUCCH: rnti=0x4601 format=1 prb1=51 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=85.6us
+2024-03-23T21:29:15.614248 [UL-PHY0 ] [I] [    23.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=1 csi1=1111 t=175.6us
+2024-03-23T21:29:15.614562 [DL-PHY3 ] [I] [    24.3] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=0 al=4 t=88.3us
+2024-03-23T21:29:15.618956 [SCHED   ] [I] [    24.7] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..27) rv=0 tbs=528
+2024-03-23T21:29:15.622893 [UL-PHY0 ] [I] [    24.7] PUSCH: rnti=0x4601 h_id=0 prb=[3, 27) symb=[0, 14) mod=QPSK rv=0 tbs=528 crc=OK iter=1.0 snr=74.9dB t=527.8us
+2024-03-23T21:29:15.622944 [MAC     ] [I] [    25.0] UL PDU rnti=0x4601 ue=0 subPDUs: [lcid=1: len=35, SBSR: lcg=0 bs=5, PAD: len=488]
+2024-03-23T21:29:15.622952 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=35 dc=data p=1 si=full sn=0 so=0
+2024-03-23T21:29:15.622959 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=0 sdu_len=33
+2024-03-23T21:29:15.623000 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.623028 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=33 sn=0 count=0
+2024-03-23T21:29:15.623035 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=0
+2024-03-23T21:29:15.623064 [RRC     ] [I] ue=0 SRB1 DCCH UL rrcSetupComplete
+2024-03-23T21:29:15.623115 [NGAP    ] [I] ue=0 Sending InitialUeMessage (ran_ue_id=0)
+2024-03-23T21:29:15.623198 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.623380 [SCHED   ] [I] [    25.2] Slot decisions cell=0 t=61us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:15.623415 [RLC     ] [I] ue=0 SRB1 DL: TX status PDU. pdu_len=3 grant_len=3
+2024-03-23T21:29:15.623419 [MAC     ] [I] [    25.2] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=5
+2024-03-23T21:29:15.623486 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.623586 [DL-PHY4 ] [I] [    25.2] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=89.3us
+2024-03-23T21:29:15.623660 [DL-PHY4 ] [I] [    25.2] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=8 al=4 t=57.3us
+2024-03-23T21:29:15.623767 [DL-PHY4 ] [I] [    25.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=102.7us
+2024-03-23T21:29:15.628273 [SCHED   ] [I] [    25.6] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..4) rv=0 tbs=76
+2024-03-23T21:29:15.632988 [UL-PHY0 ] [I] [    25.6] PUSCH: rnti=0x4601 h_id=0 prb=[3, 4) symb=[0, 14) mod=64QAM rv=0 tbs=76 crc=OK iter=2.0 ack=1 snr=75.8dB t=361.5us
+2024-03-23T21:29:15.633038 [MAC     ] [I] [    25.9] UL PDU rnti=0x4601 ue=0 subPDUs: [SBSR: lcg=0 bs=0, PAD: len=73]
+2024-03-23T21:29:15.633083 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.637478 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.637555 [NGAP    ] [I] ue=0 Received DlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:15.637601 [RRC     ] [I] ue=0 DCCH DL dlInformationTransfer
+2024-03-23T21:29:15.637610 [PDCP    ] [I] ue=0 SRB1 DL: TX PDU. type=data pdu_len=51 sn=0 count=0
+2024-03-23T21:29:15.637679 [RLC     ] [I] ue=0 SRB1 DL: TX SDU. sdu_len=51 pdcp_sn=0 queued_sdus=1 queued_bytes=51
+2024-03-23T21:29:15.637855 [SCHED   ] [I] [    26.5] Slot decisions cell=0 t=44us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:15.637882 [RLC     ] [I] ue=0 SRB1 DL: TX PDU. dc=data p=1 si=full sn=0 so=0 pdu_len=53 grant_len=53
+2024-03-23T21:29:15.637887 [MAC     ] [I] [    26.5] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=55
+2024-03-23T21:29:15.637979 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.638051 [DL-PHY1 ] [I] [    26.5] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=68.5us
+2024-03-23T21:29:15.638120 [DL-PHY1 ] [I] [    26.5] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=64.8us
+2024-03-23T21:29:15.646088 [UL-PHY0 ] [I] [    26.9] PUCCH: rnti=0x4601 format=1 prb1=51 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=92.4us
+2024-03-23T21:29:15.656636 [UL-PHY0 ] [I] [    27.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=yes t=75.9us
+2024-03-23T21:29:15.656885 [DL-PHY3 ] [I] [    28.3] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=0 al=4 t=65.3us
+2024-03-23T21:29:15.661223 [SCHED   ] [I] [    28.7] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..9) rv=0 tbs=544
+2024-03-23T21:29:15.664891 [UL-PHY0 ] [I] [    28.7] PUSCH: rnti=0x4601 h_id=0 prb=[3, 9) symb=[0, 14) mod=64QAM rv=0 tbs=544 crc=OK iter=2.0 snr=70.4dB t=248.7us
+2024-03-23T21:29:15.664948 [MAC     ] [I] [    29.0] UL PDU rnti=0x4601 ue=0 subPDUs: [lcid=1: len=3, lcid=1: len=32, SBSR: lcg=0 bs=5, PAD: len=502]
+2024-03-23T21:29:15.664966 [RLC     ] [I] ue=0 SRB1 UL: RX status PDU. ack_sn=1 n_nack=0
+2024-03-23T21:29:15.664974 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=32 dc=data p=1 si=full sn=1 so=0
+2024-03-23T21:29:15.664980 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=1 sdu_len=30
+2024-03-23T21:29:15.664992 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.665019 [RLC     ] [I] ue=0 SRB1 DL: Handling status report. ack_sn=1 n_nack=0
+2024-03-23T21:29:15.665034 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=30 sn=1 count=1
+2024-03-23T21:29:15.665042 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=1
+2024-03-23T21:29:15.665065 [RRC     ] [I] ue=0 SRB1 DCCH UL ulInformationTransfer
+2024-03-23T21:29:15.665091 [NGAP    ] [I] ue=0 Sending UlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:15.665157 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.666367 [SCHED   ] [I] [    29.2] Slot decisions cell=0 t=56us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:15.666391 [RLC     ] [I] ue=0 SRB1 DL: TX status PDU. pdu_len=3 grant_len=3
+2024-03-23T21:29:15.666395 [MAC     ] [I] [    29.2] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=5
+2024-03-23T21:29:15.666465 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.666545 [DL-PHY4 ] [I] [    29.2] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=66.9us
+2024-03-23T21:29:15.666608 [DL-PHY4 ] [I] [    29.2] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=8 al=4 t=60.1us
+2024-03-23T21:29:15.666676 [DL-PHY4 ] [I] [    29.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=64.6us
+2024-03-23T21:29:15.670184 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.670219 [NGAP    ] [I] ue=0 Received DlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:15.670233 [RRC     ] [I] ue=0 DCCH DL dlInformationTransfer
+2024-03-23T21:29:15.670241 [PDCP    ] [I] ue=0 SRB1 DL: TX PDU. type=data pdu_len=28 sn=1 count=1
+2024-03-23T21:29:15.670317 [RLC     ] [I] ue=0 SRB1 DL: TX SDU. sdu_len=28 pdcp_sn=1 queued_sdus=1 queued_bytes=28
+2024-03-23T21:29:15.671088 [SCHED   ] [I] [    29.6] Slot decisions cell=0 t=41us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=1 ss_id=2 k1=4 rv=0 tbs=72, UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..4) rv=0 tbs=76
+2024-03-23T21:29:15.671112 [RLC     ] [I] ue=0 SRB1 DL: TX PDU. dc=data p=1 si=full sn=1 so=0 pdu_len=30 grant_len=30
+2024-03-23T21:29:15.671116 [MAC     ] [I] [    29.6] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=32
+2024-03-23T21:29:15.671188 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.671261 [DL-PHY0 ] [I] [    29.6] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=67.0us
+2024-03-23T21:29:15.671323 [DL-PHY0 ] [I] [    29.6] PDSCH: rnti=0x4601 h_id=1 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=58.7us
+2024-03-23T21:29:15.674892 [UL-PHY0 ] [I] [    29.6] PUSCH: rnti=0x4601 h_id=0 prb=[3, 4) symb=[0, 14) mod=64QAM rv=0 tbs=76 crc=OK iter=2.0 ack=1 snr=75.8dB t=208.2us
+2024-03-23T21:29:15.674947 [MAC     ] [I] [    29.9] UL PDU rnti=0x4601 ue=0 subPDUs: [SBSR: lcg=0 bs=0, PAD: len=73]
+2024-03-23T21:29:15.674993 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.678540 [UL-PHY0 ] [I] [    30.0] PUCCH: rnti=0x4601 format=1 prb1=51 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=84.1us
+2024-03-23T21:29:15.699363 [UL-PHY0 ] [I] [    31.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=1 csi1=1111 t=72.9us
+2024-03-23T21:29:15.699638 [DL-PHY3 ] [I] [    32.3] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=0 al=4 t=67.0us
+2024-03-23T21:29:15.704070 [SCHED   ] [I] [    32.7] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..9) rv=0 tbs=544
+2024-03-23T21:29:15.708666 [UL-PHY0 ] [I] [    32.7] PUSCH: rnti=0x4601 h_id=0 prb=[3, 9) symb=[0, 14) mod=64QAM rv=0 tbs=544 crc=OK iter=2.0 snr=94.5dB t=245.8us
+2024-03-23T21:29:15.708721 [MAC     ] [I] [    33.0] UL PDU rnti=0x4601 ue=0 subPDUs: [lcid=1: len=3, lcid=1: len=71, SBSR: lcg=0 bs=7, PAD: len=463]
+2024-03-23T21:29:15.708730 [RLC     ] [I] ue=0 SRB1 UL: RX status PDU. ack_sn=2 n_nack=0
+2024-03-23T21:29:15.708736 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=71 dc=data p=1 si=full sn=2 so=0
+2024-03-23T21:29:15.708742 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=2 sdu_len=69
+2024-03-23T21:29:15.708767 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.708784 [RLC     ] [I] ue=0 SRB1 DL: Handling status report. ack_sn=2 n_nack=0
+2024-03-23T21:29:15.708793 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=69 sn=2 count=2
+2024-03-23T21:29:15.708799 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=2
+2024-03-23T21:29:15.708810 [RRC     ] [I] ue=0 SRB1 DCCH UL ulInformationTransfer
+2024-03-23T21:29:15.708831 [NGAP    ] [I] ue=0 Sending UlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:15.708903 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.709115 [SCHED   ] [I] [    33.2] Slot decisions cell=0 t=55us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:15.709144 [RLC     ] [I] ue=0 SRB1 DL: TX status PDU. pdu_len=3 grant_len=3
+2024-03-23T21:29:15.709148 [MAC     ] [I] [    33.2] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=5
+2024-03-23T21:29:15.709217 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.709294 [DL-PHY4 ] [I] [    33.2] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=68.5us
+2024-03-23T21:29:15.709367 [DL-PHY4 ] [I] [    33.2] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=8 al=4 t=60.4us
+2024-03-23T21:29:15.709437 [DL-PHY4 ] [I] [    33.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=65.6us
+2024-03-23T21:29:15.713944 [SCHED   ] [I] [    33.6] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..4) rv=0 tbs=76
+2024-03-23T21:29:15.717653 [UL-PHY0 ] [I] [    33.6] PUSCH: rnti=0x4601 h_id=0 prb=[3, 4) symb=[0, 14) mod=64QAM rv=0 tbs=76 crc=OK iter=2.0 ack=1 snr=75.8dB t=216.7us
+2024-03-23T21:29:15.717697 [MAC     ] [I] [    33.9] UL PDU rnti=0x4601 ue=0 subPDUs: [SBSR: lcg=0 bs=0, PAD: len=73]
+2024-03-23T21:29:15.717743 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.721252 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.721335 [NGAP    ] [I] ue=0 Received InitialContextSetupRequest (ran_ue_id=0)
+2024-03-23T21:29:15.721480 [PDCP    ] [I] ue=0 SRB1 DL: Security configured: NIA2 (on) NEA0 (on)
+2024-03-23T21:29:15.721483 [PDCP    ] [I] ue=0 SRB1 UL: Security configured. NIA2 (on) NEA0 (on)
+2024-03-23T21:29:15.721492 [RRC     ] [I] ue=0 DCCH DL securityModeCommand
+2024-03-23T21:29:15.721533 [PDCP    ] [I] ue=0 SRB1 DL: TX PDU. type=data pdu_len=9 sn=2 count=2
+2024-03-23T21:29:15.721590 [RLC     ] [I] ue=0 SRB1 DL: TX SDU. sdu_len=9 pdcp_sn=2 queued_sdus=1 queued_bytes=9
+2024-03-23T21:29:15.722198 [SCHED   ] [I] [    34.4] Slot decisions cell=0 t=42us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:15.722223 [RLC     ] [I] ue=0 SRB1 DL: TX PDU. dc=data p=1 si=full sn=2 so=0 pdu_len=11 grant_len=11
+2024-03-23T21:29:15.722227 [MAC     ] [I] [    34.4] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=13
+2024-03-23T21:29:15.722310 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.722380 [DL-PHY0 ] [I] [    34.4] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=62.1us
+2024-03-23T21:29:15.722443 [DL-PHY0 ] [I] [    34.4] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=57.8us
+2024-03-23T21:29:15.730210 [UL-PHY0 ] [I] [    34.8] PUCCH: rnti=0x4601 format=1 prb1=51 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=98.3us
+2024-03-23T21:29:15.742252 [UL-PHY0 ] [I] [    35.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=yes t=75.8us
+2024-03-23T21:29:15.742515 [DL-PHY3 ] [I] [    36.3] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=0 al=4 t=66.5us
+2024-03-23T21:29:15.746825 [SCHED   ] [I] [    36.7] Slot decisions cell=0 t=26us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..9) rv=0 tbs=544
+2024-03-23T21:29:15.751459 [UL-PHY0 ] [I] [    36.7] PUSCH: rnti=0x4601 h_id=0 prb=[3, 9) symb=[0, 14) mod=64QAM rv=0 tbs=544 crc=OK iter=2.0 snr=77.2dB t=247.6us
+2024-03-23T21:29:15.751517 [MAC     ] [I] [    37.0] UL PDU rnti=0x4601 ue=0 subPDUs: [lcid=1: len=3, lcid=1: len=10, SBSR: lcg=0 bs=2, PAD: len=524]
+2024-03-23T21:29:15.751525 [RLC     ] [I] ue=0 SRB1 UL: RX status PDU. ack_sn=3 n_nack=0
+2024-03-23T21:29:15.751532 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=10 dc=data p=1 si=full sn=3 so=0
+2024-03-23T21:29:15.751537 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=3 sdu_len=8
+2024-03-23T21:29:15.751561 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.751585 [RLC     ] [I] ue=0 SRB1 DL: Handling status report. ack_sn=3 n_nack=0
+2024-03-23T21:29:15.751586 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=8 sn=3 count=3
+2024-03-23T21:29:15.751599 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=3
+2024-03-23T21:29:15.751608 [RRC     ] [I] ue=0 SRB1 DCCH UL securityModeComplete
+2024-03-23T21:29:15.751609 [RRC     ] [W] Unexpected transaction id=0
+2024-03-23T21:29:15.752931 [SCHED   ] [I] [    37.2] Slot decisions cell=0 t=54us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:15.752953 [RLC     ] [I] ue=0 SRB1 DL: TX status PDU. pdu_len=3 grant_len=3
+2024-03-23T21:29:15.752957 [MAC     ] [I] [    37.2] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=5
+2024-03-23T21:29:15.753024 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.753107 [DL-PHY4 ] [I] [    37.2] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=67.0us
+2024-03-23T21:29:15.753170 [DL-PHY4 ] [I] [    37.2] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=8 al=4 t=60.6us
+2024-03-23T21:29:15.753236 [DL-PHY4 ] [I] [    37.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=63.4us
+2024-03-23T21:29:15.756663 [SCHED   ] [I] [    37.6] Slot decisions cell=0 t=26us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..4) rv=0 tbs=76
+2024-03-23T21:29:15.761165 [UL-PHY0 ] [I] [    37.6] PUSCH: rnti=0x4601 h_id=0 prb=[3, 4) symb=[0, 14) mod=64QAM rv=0 tbs=76 crc=OK iter=2.0 ack=1 snr=75.8dB t=208.7us
+2024-03-23T21:29:15.761194 [MAC     ] [I] [    37.9] UL PDU rnti=0x4601 ue=0 subPDUs: [SBSR: lcg=0 bs=0, PAD: len=73]
+2024-03-23T21:29:15.761237 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:15.785287 [UL-PHY0 ] [I] [    39.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.5us
+2024-03-23T21:29:15.828907 [UL-PHY0 ] [I] [    43.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.3us
+2024-03-23T21:29:15.872616 [UL-PHY0 ] [I] [    47.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.4us
+2024-03-23T21:29:15.916588 [UL-PHY0 ] [I] [    51.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.9us
+2024-03-23T21:29:15.960004 [UL-PHY0 ] [I] [    55.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=150.6us
+2024-03-23T21:29:16.002834 [UL-PHY0 ] [I] [    59.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=104.0us
+2024-03-23T21:29:16.046434 [UL-PHY0 ] [I] [    63.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:16.088380 [UL-PHY0 ] [I] [    67.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.4us
+2024-03-23T21:29:16.132755 [UL-PHY0 ] [I] [    71.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.9us
+2024-03-23T21:29:16.175470 [UL-PHY0 ] [I] [    75.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=104.7us
+2024-03-23T21:29:16.218076 [UL-PHY0 ] [I] [    79.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.4us
+2024-03-23T21:29:16.261033 [UL-PHY0 ] [I] [    83.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=101.8us
+2024-03-23T21:29:16.304484 [UL-PHY0 ] [I] [    87.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.2us
+2024-03-23T21:29:16.348937 [UL-PHY0 ] [I] [    91.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.5us
+2024-03-23T21:29:16.393574 [UL-PHY0 ] [I] [    95.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.2us
+2024-03-23T21:29:16.438566 [UL-PHY0 ] [I] [    99.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.0us
+2024-03-23T21:29:16.483034 [UL-PHY0 ] [I] [   103.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:16.527690 [UL-PHY0 ] [I] [   107.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.2us
+2024-03-23T21:29:16.572180 [UL-PHY0 ] [I] [   111.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:16.616070 [UL-PHY0 ] [I] [   115.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=100.1us
+2024-03-23T21:29:16.660594 [UL-PHY0 ] [I] [   119.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=82.8us
+2024-03-23T21:29:16.705296 [UL-PHY0 ] [I] [   123.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=101.2us
+2024-03-23T21:29:16.749823 [UL-PHY0 ] [I] [   127.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.7us
+2024-03-23T21:29:16.794800 [UL-PHY0 ] [I] [   131.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.0us
+2024-03-23T21:29:16.840272 [UL-PHY0 ] [I] [   135.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.5us
+2024-03-23T21:29:16.884885 [UL-PHY0 ] [I] [   139.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.0us
+2024-03-23T21:29:16.929525 [UL-PHY0 ] [I] [   143.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.0us
+2024-03-23T21:29:16.976619 [UL-PHY0 ] [I] [   147.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.7us
+2024-03-23T21:29:17.021152 [UL-PHY0 ] [I] [   151.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:17.064867 [UL-PHY0 ] [I] [   155.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.1us
+2024-03-23T21:29:17.109446 [UL-PHY0 ] [I] [   159.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.7us
+2024-03-23T21:29:17.154436 [UL-PHY0 ] [I] [   163.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.8us
+2024-03-23T21:29:17.198894 [UL-PHY0 ] [I] [   167.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.0us
+2024-03-23T21:29:17.242590 [UL-PHY0 ] [I] [   171.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.2us
+2024-03-23T21:29:17.287213 [UL-PHY0 ] [I] [   175.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.0us
+2024-03-23T21:29:17.332126 [UL-PHY0 ] [I] [   179.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.1us
+2024-03-23T21:29:17.377288 [UL-PHY0 ] [I] [   183.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.9us
+2024-03-23T21:29:17.421949 [UL-PHY0 ] [I] [   187.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.5us
+2024-03-23T21:29:17.465577 [UL-PHY0 ] [I] [   191.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.0us
+2024-03-23T21:29:17.510566 [UL-PHY0 ] [I] [   195.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.0us
+2024-03-23T21:29:17.555030 [UL-PHY0 ] [I] [   199.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.2us
+2024-03-23T21:29:17.598734 [UL-PHY0 ] [I] [   203.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.9us
+2024-03-23T21:29:17.643329 [UL-PHY0 ] [I] [   207.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.3us
+2024-03-23T21:29:17.688225 [UL-PHY0 ] [I] [   211.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.8us
+2024-03-23T21:29:17.732592 [UL-PHY0 ] [I] [   215.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:17.777312 [UL-PHY0 ] [I] [   219.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.9us
+2024-03-23T21:29:17.821906 [UL-PHY0 ] [I] [   223.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:17.865507 [UL-PHY0 ] [I] [   227.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=99.6us
+2024-03-23T21:29:17.910818 [UL-PHY0 ] [I] [   231.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:17.954564 [UL-PHY0 ] [I] [   235.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.8us
+2024-03-23T21:29:18.001299 [UL-PHY0 ] [I] [   239.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=81.7us
+2024-03-23T21:29:18.045217 [UL-PHY0 ] [I] [   243.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.3us
+2024-03-23T21:29:18.089653 [UL-PHY0 ] [I] [   247.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.8us
+2024-03-23T21:29:18.134459 [UL-PHY0 ] [I] [   251.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.7us
+2024-03-23T21:29:18.179064 [UL-PHY0 ] [I] [   255.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.9us
+2024-03-23T21:29:18.222925 [UL-PHY0 ] [I] [   259.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.9us
+2024-03-23T21:29:18.267342 [UL-PHY0 ] [I] [   263.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.9us
+2024-03-23T21:29:18.311975 [UL-PHY0 ] [I] [   267.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.5us
+2024-03-23T21:29:18.356608 [UL-PHY0 ] [I] [   271.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.8us
+2024-03-23T21:29:18.401474 [UL-PHY0 ] [I] [   275.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.8us
+2024-03-23T21:29:18.445843 [UL-PHY0 ] [I] [   279.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:18.490468 [UL-PHY0 ] [I] [   283.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=101.5us
+2024-03-23T21:29:18.535048 [UL-PHY0 ] [I] [   287.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.8us
+2024-03-23T21:29:18.578966 [UL-PHY0 ] [I] [   291.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.8us
+2024-03-23T21:29:18.623376 [UL-PHY0 ] [I] [   295.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.1us
+2024-03-23T21:29:18.667897 [UL-PHY0 ] [I] [   299.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.0us
+2024-03-23T21:29:18.712415 [UL-PHY0 ] [I] [   303.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.1us
+2024-03-23T21:29:18.757269 [UL-PHY0 ] [I] [   307.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=90.9us
+2024-03-23T21:29:18.801533 [UL-PHY0 ] [I] [   311.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.3us
+2024-03-23T21:29:18.846212 [UL-PHY0 ] [I] [   315.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.2us
+2024-03-23T21:29:18.890721 [UL-PHY0 ] [I] [   319.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=88.8us
+2024-03-23T21:29:18.934896 [UL-PHY0 ] [I] [   323.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=100.0us
+2024-03-23T21:29:18.979364 [UL-PHY0 ] [I] [   327.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=81.9us
+2024-03-23T21:29:19.023983 [UL-PHY0 ] [I] [   331.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.4us
+2024-03-23T21:29:19.068556 [UL-PHY0 ] [I] [   335.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.9us
+2024-03-23T21:29:19.112360 [UL-PHY0 ] [I] [   339.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.0us
+2024-03-23T21:29:19.155778 [UL-PHY0 ] [I] [   343.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.4us
+2024-03-23T21:29:19.199471 [UL-PHY0 ] [I] [   347.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.3us
+2024-03-23T21:29:19.243105 [UL-PHY0 ] [I] [   351.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.4us
+2024-03-23T21:29:19.286085 [UL-PHY0 ] [I] [   355.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.6us
+2024-03-23T21:29:19.330377 [UL-PHY0 ] [I] [   359.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=212.3us
+2024-03-23T21:29:19.374998 [UL-PHY0 ] [I] [   363.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=213.9us
+2024-03-23T21:29:19.418692 [UL-PHY0 ] [I] [   367.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.9us
+2024-03-23T21:29:19.461684 [UL-PHY0 ] [I] [   371.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.7us
+2024-03-23T21:29:19.505069 [UL-PHY0 ] [I] [   375.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.9us
+2024-03-23T21:29:19.552840 [UL-PHY0 ] [I] [   379.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.2us
+2024-03-23T21:29:19.596402 [UL-PHY0 ] [I] [   383.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.0us
+2024-03-23T21:29:19.639429 [UL-PHY0 ] [I] [   387.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=100.2us
+2024-03-23T21:29:19.683878 [UL-PHY0 ] [I] [   391.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:19.726633 [UL-PHY0 ] [I] [   395.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.1us
+2024-03-23T21:29:19.770121 [UL-PHY0 ] [I] [   399.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.4us
+2024-03-23T21:29:19.813030 [UL-PHY0 ] [I] [   403.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.5us
+2024-03-23T21:29:19.857532 [UL-PHY0 ] [I] [   407.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.3us
+2024-03-23T21:29:19.901110 [UL-PHY0 ] [I] [   411.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:19.945741 [UL-PHY0 ] [I] [   415.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.2us
+2024-03-23T21:29:19.990722 [UL-PHY0 ] [I] [   419.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.3us
+2024-03-23T21:29:20.035044 [UL-PHY0 ] [I] [   423.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.6us
+2024-03-23T21:29:20.079730 [UL-PHY0 ] [I] [   427.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.4us
+2024-03-23T21:29:20.124253 [UL-PHY0 ] [I] [   431.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.2us
+2024-03-23T21:29:20.168014 [UL-PHY0 ] [I] [   435.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.8us
+2024-03-23T21:29:20.212326 [UL-PHY0 ] [I] [   439.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.6us
+2024-03-23T21:29:20.256074 [UL-PHY0 ] [I] [   443.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.3us
+2024-03-23T21:29:20.299628 [UL-PHY0 ] [I] [   447.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.0us
+2024-03-23T21:29:20.343245 [UL-PHY0 ] [I] [   451.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.5us
+2024-03-23T21:29:20.388616 [UL-PHY0 ] [I] [   455.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.6us
+2024-03-23T21:29:20.432141 [UL-PHY0 ] [I] [   459.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.9us
+2024-03-23T21:29:20.476911 [UL-PHY0 ] [I] [   463.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=85.6us
+2024-03-23T21:29:20.520780 [UL-PHY0 ] [I] [   467.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=99.1us
+2024-03-23T21:29:20.565165 [UL-PHY0 ] [I] [   471.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.0us
+2024-03-23T21:29:20.609802 [UL-PHY0 ] [I] [   475.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.8us
+2024-03-23T21:29:20.654564 [UL-PHY0 ] [I] [   479.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=147.7us
+2024-03-23T21:29:20.699604 [UL-PHY0 ] [I] [   483.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.8us
+2024-03-23T21:29:20.744145 [UL-PHY0 ] [I] [   487.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.8us
+2024-03-23T21:29:20.787863 [UL-PHY0 ] [I] [   491.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.9us
+2024-03-23T21:29:20.833254 [UL-PHY0 ] [I] [   495.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.6us
+2024-03-23T21:29:20.877128 [UL-PHY0 ] [I] [   499.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:20.921590 [UL-PHY0 ] [I] [   503.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:20.966159 [UL-PHY0 ] [I] [   507.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.6us
+2024-03-23T21:29:21.010776 [UL-PHY0 ] [I] [   511.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=73.4us
+2024-03-23T21:29:21.054630 [UL-PHY0 ] [I] [   515.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.9us
+2024-03-23T21:29:21.100053 [UL-PHY0 ] [I] [   519.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.2us
+2024-03-23T21:29:21.143663 [UL-PHY0 ] [I] [   523.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.2us
+2024-03-23T21:29:21.188365 [UL-PHY0 ] [I] [   527.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.8us
+2024-03-23T21:29:21.232355 [UL-PHY0 ] [I] [   531.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=103.0us
+2024-03-23T21:29:21.277816 [UL-PHY0 ] [I] [   535.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.0us
+2024-03-23T21:29:21.321430 [UL-PHY0 ] [I] [   539.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.6us
+2024-03-23T21:29:21.367703 [UL-PHY0 ] [I] [   543.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.0us
+2024-03-23T21:29:21.411620 [UL-PHY0 ] [I] [   547.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:21.454929 [UL-PHY0 ] [I] [   551.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.0us
+2024-03-23T21:29:21.497520 [UL-PHY0 ] [I] [   555.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.9us
+2024-03-23T21:29:21.541061 [UL-PHY0 ] [I] [   559.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.4us
+2024-03-23T21:29:21.584891 [UL-PHY0 ] [I] [   563.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.3us
+2024-03-23T21:29:21.628227 [UL-PHY0 ] [I] [   567.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.1us
+2024-03-23T21:29:21.670968 [UL-PHY0 ] [I] [   571.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=89.5us
+2024-03-23T21:29:21.714542 [UL-PHY0 ] [I] [   575.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.9us
+2024-03-23T21:29:21.727549 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.727584 [NGAP    ] [I] ue=0 Received DlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:21.727626 [RRC     ] [I] ue=0 DCCH DL dlInformationTransfer
+2024-03-23T21:29:21.727657 [PDCP    ] [I] ue=0 SRB1 DL: TX PDU. type=data pdu_len=55 sn=3 count=3
+2024-03-23T21:29:21.727776 [RLC     ] [I] ue=0 SRB1 DL: TX SDU. sdu_len=55 pdcp_sn=3 queued_sdus=1 queued_bytes=55
+2024-03-23T21:29:21.727928 [SCHED   ] [I] [   577.5] Slot decisions cell=0 t=53us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:21.727972 [RLC     ] [I] ue=0 SRB1 DL: TX PDU. dc=data p=1 si=full sn=3 so=0 pdu_len=57 grant_len=57
+2024-03-23T21:29:21.727978 [MAC     ] [I] [   577.5] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=59
+2024-03-23T21:29:21.728069 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.728164 [DL-PHY7 ] [I] [   577.5] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=105.1us
+2024-03-23T21:29:21.728313 [DL-PHY7 ] [I] [   577.5] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=143.2us
+2024-03-23T21:29:21.736366 [UL-PHY0 ] [I] [   577.9] PUCCH: rnti=0x4601 format=1 prb1=51 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=102.1us
+2024-03-23T21:29:21.758145 [UL-PHY0 ] [I] [   579.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=yes t=77.7us
+2024-03-23T21:29:21.758429 [DL-PHY3 ] [I] [   580.3] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=0 al=4 t=87.4us
+2024-03-23T21:29:21.762803 [SCHED   ] [I] [   580.7] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..9) rv=0 tbs=544
+2024-03-23T21:29:21.767693 [UL-PHY0 ] [I] [   580.7] PUSCH: rnti=0x4601 h_id=0 prb=[3, 9) symb=[0, 14) mod=64QAM rv=0 tbs=544 crc=OK iter=2.0 snr=74.8dB t=529.8us
+2024-03-23T21:29:21.767759 [MAC     ] [I] [   581.0] UL PDU rnti=0x4601 ue=0 subPDUs: [lcid=1: len=3, lcid=1: len=21, lcid=1: len=49, SBSR: lcg=0 bs=7, PAD: len=462]
+2024-03-23T21:29:21.767768 [RLC     ] [I] ue=0 SRB1 UL: RX status PDU. ack_sn=4 n_nack=0
+2024-03-23T21:29:21.767775 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=21 dc=data p=0 si=full sn=4 so=0
+2024-03-23T21:29:21.767787 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=4 sdu_len=19
+2024-03-23T21:29:21.767808 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.767816 [RLC     ] [I] ue=0 SRB1 DL: Handling status report. ack_sn=4 n_nack=0
+2024-03-23T21:29:21.767822 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=49 dc=data p=1 si=full sn=5 so=0
+2024-03-23T21:29:21.767827 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=5 sdu_len=47
+2024-03-23T21:29:21.767842 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=19 sn=4 count=4
+2024-03-23T21:29:21.767857 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=4
+2024-03-23T21:29:21.767872 [RRC     ] [I] ue=0 SRB1 DCCH UL ulInformationTransfer
+2024-03-23T21:29:21.767905 [NGAP    ] [I] ue=0 Sending UlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:21.767982 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.768019 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=47 sn=5 count=5
+2024-03-23T21:29:21.768026 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=5
+2024-03-23T21:29:21.768032 [RRC     ] [I] ue=0 SRB1 DCCH UL ulInformationTransfer
+2024-03-23T21:29:21.768040 [NGAP    ] [I] ue=0 Sending UlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:21.768065 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.768150 [SCHED   ] [I] [   581.2] Slot decisions cell=0 t=60us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:21.768182 [RLC     ] [I] ue=0 SRB1 DL: TX status PDU. pdu_len=3 grant_len=3
+2024-03-23T21:29:21.768186 [MAC     ] [I] [   581.2] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=5
+2024-03-23T21:29:21.768254 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.768374 [DL-PHY4 ] [I] [   581.2] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=103.4us
+2024-03-23T21:29:21.768435 [DL-PHY4 ] [I] [   581.2] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=8 al=4 t=57.7us
+2024-03-23T21:29:21.768556 [DL-PHY4 ] [I] [   581.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=110.5us
+2024-03-23T21:29:21.768582 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.768629 [NGAP    ] [I] ue=0 Received DlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:21.768644 [RRC     ] [I] ue=0 DCCH DL dlInformationTransfer
+2024-03-23T21:29:21.768657 [PDCP    ] [I] ue=0 SRB1 DL: TX PDU. type=data pdu_len=60 sn=4 count=4
+2024-03-23T21:29:21.768709 [RLC     ] [I] ue=0 SRB1 DL: TX SDU. sdu_len=60 pdcp_sn=4 queued_sdus=1 queued_bytes=60
+2024-03-23T21:29:21.768927 [SCHED   ] [I] [   581.3] Slot decisions cell=0 t=49us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=1 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:21.768949 [RLC     ] [I] ue=0 SRB1 DL: TX PDU. dc=data p=1 si=full sn=4 so=0 pdu_len=62 grant_len=62
+2024-03-23T21:29:21.768960 [MAC     ] [I] [   581.3] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=64
+2024-03-23T21:29:21.769033 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.769118 [DL-PHY5 ] [I] [   581.3] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=82.0us
+2024-03-23T21:29:21.769216 [DL-PHY5 ] [I] [   581.3] PDSCH: rnti=0x4601 h_id=1 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=93.4us
+2024-03-23T21:29:21.772306 [SCHED   ] [I] [   581.6] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..4) rv=0 tbs=76
+2024-03-23T21:29:21.777015 [UL-PHY0 ] [I] [   581.6] PUSCH: rnti=0x4601 h_id=0 prb=[3, 4) symb=[0, 14) mod=64QAM rv=0 tbs=76 crc=OK iter=2.0 ack=1 snr=75.8dB t=316.3us
+2024-03-23T21:29:21.777066 [MAC     ] [I] [   581.9] UL PDU rnti=0x4601 ue=0 subPDUs: [SBSR: lcg=0 bs=0, PAD: len=73]
+2024-03-23T21:29:21.777107 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.777688 [UL-PHY0 ] [I] [   581.7] PUCCH: rnti=0x4601 format=1 prb1=51 prb2=na symb=[0, 14) cs=0 occ=0 ack=1 t=92.6us
+2024-03-23T21:29:21.782631 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.782666 [NGAP    ] [I] ue=0 Received PduSessionResourceSetupRequest (ran_ue_id=0)
+2024-03-23T21:29:21.801391 [UL-PHY0 ] [I] [   583.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=1 csi1=1111 t=71.7us
+2024-03-23T21:29:21.801656 [DL-PHY3 ] [I] [   584.3] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=0 al=4 t=66.2us
+2024-03-23T21:29:21.806016 [SCHED   ] [I] [   584.7] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..9) rv=0 tbs=544
+2024-03-23T21:29:21.810608 [UL-PHY0 ] [I] [   584.7] PUSCH: rnti=0x4601 h_id=0 prb=[3, 9) symb=[0, 14) mod=64QAM rv=0 tbs=544 crc=OK iter=2.0 snr=73.3dB t=245.1us
+2024-03-23T21:29:21.810674 [MAC     ] [I] [   585.0] UL PDU rnti=0x4601 ue=0 subPDUs: [lcid=1: len=3, lcid=1: len=21, SBSR: lcg=0 bs=4, PAD: len=513]
+2024-03-23T21:29:21.810681 [RLC     ] [I] ue=0 SRB1 UL: RX status PDU. ack_sn=5 n_nack=0
+2024-03-23T21:29:21.810688 [RLC     ] [I] ue=0 SRB1 UL: RX PDU. pdu_len=21 dc=data p=1 si=full sn=6 so=0
+2024-03-23T21:29:21.810694 [RLC     ] [I] ue=0 SRB1 UL: RX SDU. sn=6 sdu_len=19
+2024-03-23T21:29:21.810714 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.810740 [PDCP    ] [I] ue=0 SRB1 UL: RX PDU. type=data pdu_len=19 sn=6 count=6
+2024-03-23T21:29:21.810742 [RLC     ] [I] ue=0 SRB1 DL: Handling status report. ack_sn=5 n_nack=0
+2024-03-23T21:29:21.810749 [PDCP    ] [I] ue=0 SRB1 UL: RX SDU. count=6
+2024-03-23T21:29:21.810758 [RRC     ] [I] ue=0 SRB1 DCCH UL ulInformationTransfer
+2024-03-23T21:29:21.810772 [NGAP    ] [I] ue=0 Sending UlNasTransportMessage (ran_ue_id=0)
+2024-03-23T21:29:21.810844 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.811122 [SCHED   ] [I] [   585.2] Slot decisions cell=0 t=54us: DL: ue=0 c-rnti=0x4601 prb=[0..1) h_id=0 ss_id=2 k1=4 rv=0 tbs=72
+2024-03-23T21:29:21.811164 [RLC     ] [I] ue=0 SRB1 DL: TX status PDU. pdu_len=3 grant_len=3
+2024-03-23T21:29:21.811168 [MAC     ] [I] [   585.2] DL PDU: ue=0 rnti=0x4601 size=72: SDU: lcid=1 size=5
+2024-03-23T21:29:21.811237 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.811313 [DL-PHY4 ] [I] [   585.2] PDCCH: rnti=0x4601 ss_id=2 format=1_0 cce=0 al=4 t=67.6us
+2024-03-23T21:29:21.811386 [DL-PHY4 ] [I] [   585.2] PDCCH: rnti=0x4601 ss_id=2 format=0_0 cce=8 al=4 t=60.5us
+2024-03-23T21:29:21.811455 [DL-PHY4 ] [I] [   585.2] PDSCH: rnti=0x4601 h_id=0 k1=4 prb=[0, 1) symb=[2, 14) mod=64QAM rv=0 tbs=72 t=64.8us
+2024-03-23T21:29:21.815934 [SCHED   ] [I] [   585.6] Slot decisions cell=0 t=25us: UL: ue=0 rnti=0x4601 h_id=0 ss_id=2 prb=[3..4) rv=0 tbs=76
+2024-03-23T21:29:21.820472 [UL-PHY0 ] [I] [   585.6] PUSCH: rnti=0x4601 h_id=0 prb=[3, 4) symb=[0, 14) mod=64QAM rv=0 tbs=76 crc=OK iter=2.0 ack=1 snr=75.8dB t=210.2us
+2024-03-23T21:29:21.820529 [MAC     ] [I] [   585.9] UL PDU rnti=0x4601 ue=0 subPDUs: [SBSR: lcg=0 bs=0, PAD: len=73]
+2024-03-23T21:29:21.820579 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:29:21.844209 [UL-PHY0 ] [I] [   587.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.7us
+2024-03-23T21:29:21.887905 [UL-PHY0 ] [I] [   591.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.0us
+2024-03-23T21:29:21.931843 [UL-PHY0 ] [I] [   595.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.5us
+2024-03-23T21:29:21.975376 [UL-PHY0 ] [I] [   599.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.9us
+2024-03-23T21:29:22.018071 [UL-PHY0 ] [I] [   603.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=90.8us
+2024-03-23T21:29:22.061730 [UL-PHY0 ] [I] [   607.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.2us
+2024-03-23T21:29:22.104759 [UL-PHY0 ] [I] [   611.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.7us
+2024-03-23T21:29:22.148199 [UL-PHY0 ] [I] [   615.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.2us
+2024-03-23T21:29:22.190868 [UL-PHY0 ] [I] [   619.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=90.8us
+2024-03-23T21:29:22.234480 [UL-PHY0 ] [I] [   623.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.5us
+2024-03-23T21:29:22.277358 [UL-PHY0 ] [I] [   627.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.0us
+2024-03-23T21:29:22.321675 [UL-PHY0 ] [I] [   631.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.6us
+2024-03-23T21:29:22.366187 [UL-PHY0 ] [I] [   635.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.0us
+2024-03-23T21:29:22.410775 [UL-PHY0 ] [I] [   639.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.6us
+2024-03-23T21:29:22.454763 [UL-PHY0 ] [I] [   643.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.1us
+2024-03-23T21:29:22.499231 [UL-PHY0 ] [I] [   647.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.2us
+2024-03-23T21:29:22.543980 [UL-PHY0 ] [I] [   651.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.7us
+2024-03-23T21:29:22.588647 [UL-PHY0 ] [I] [   655.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:22.633572 [UL-PHY0 ] [I] [   659.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.5us
+2024-03-23T21:29:22.678012 [UL-PHY0 ] [I] [   663.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.2us
+2024-03-23T21:29:22.721710 [UL-PHY0 ] [I] [   667.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=90.2us
+2024-03-23T21:29:22.766215 [UL-PHY0 ] [I] [   671.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.2us
+2024-03-23T21:29:22.811216 [UL-PHY0 ] [I] [   675.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.2us
+2024-03-23T21:29:22.856351 [UL-PHY0 ] [I] [   679.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.7us
+2024-03-23T21:29:22.900033 [UL-PHY0 ] [I] [   683.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.4us
+2024-03-23T21:29:22.945555 [UL-PHY0 ] [I] [   687.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.1us
+2024-03-23T21:29:22.989329 [UL-PHY0 ] [I] [   691.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=100.1us
+2024-03-23T21:29:23.033669 [UL-PHY0 ] [I] [   695.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.2us
+2024-03-23T21:29:23.078358 [UL-PHY0 ] [I] [   699.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=101.4us
+2024-03-23T21:29:23.122994 [UL-PHY0 ] [I] [   703.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.1us
+2024-03-23T21:29:23.167008 [UL-PHY0 ] [I] [   707.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=100.5us
+2024-03-23T21:29:23.212418 [UL-PHY0 ] [I] [   711.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.6us
+2024-03-23T21:29:23.256115 [UL-PHY0 ] [I] [   715.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.9us
+2024-03-23T21:29:23.300709 [UL-PHY0 ] [I] [   719.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:23.346357 [UL-PHY0 ] [I] [   723.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=103.6us
+2024-03-23T21:29:23.390798 [UL-PHY0 ] [I] [   727.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.6us
+2024-03-23T21:29:23.434474 [UL-PHY0 ] [I] [   731.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.2us
+2024-03-23T21:29:23.479120 [UL-PHY0 ] [I] [   735.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.0us
+2024-03-23T21:29:23.523977 [UL-PHY0 ] [I] [   739.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:23.568340 [UL-PHY0 ] [I] [   743.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.1us
+2024-03-23T21:29:23.612984 [UL-PHY0 ] [I] [   747.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=89.8us
+2024-03-23T21:29:23.658222 [UL-PHY0 ] [I] [   751.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=201.7us
+2024-03-23T21:29:23.701577 [UL-PHY0 ] [I] [   755.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=211.2us
+2024-03-23T21:29:23.746067 [UL-PHY0 ] [I] [   759.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.8us
+2024-03-23T21:29:23.790824 [UL-PHY0 ] [I] [   763.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.4us
+2024-03-23T21:29:23.835306 [UL-PHY0 ] [I] [   767.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.8us
+2024-03-23T21:29:23.879257 [UL-PHY0 ] [I] [   771.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.6us
+2024-03-23T21:29:23.923716 [UL-PHY0 ] [I] [   775.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=73.8us
+2024-03-23T21:29:23.968360 [UL-PHY0 ] [I] [   779.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.7us
+2024-03-23T21:29:24.012857 [UL-PHY0 ] [I] [   783.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.3us
+2024-03-23T21:29:24.057778 [UL-PHY0 ] [I] [   787.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.8us
+2024-03-23T21:29:24.106090 [UL-PHY0 ] [I] [   791.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.2us
+2024-03-23T21:29:24.150665 [UL-PHY0 ] [I] [   795.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=99.6us
+2024-03-23T21:29:24.195278 [UL-PHY0 ] [I] [   799.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.9us
+2024-03-23T21:29:24.239060 [UL-PHY0 ] [I] [   803.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=101.4us
+2024-03-23T21:29:24.284413 [UL-PHY0 ] [I] [   807.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.4us
+2024-03-23T21:29:24.328975 [UL-PHY0 ] [I] [   811.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.9us
+2024-03-23T21:29:24.373737 [UL-PHY0 ] [I] [   815.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.3us
+2024-03-23T21:29:24.416688 [UL-PHY0 ] [I] [   819.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.8us
+2024-03-23T21:29:24.460110 [UL-PHY0 ] [I] [   823.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=73.4us
+2024-03-23T21:29:24.502757 [UL-PHY0 ] [I] [   827.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=99.8us
+2024-03-23T21:29:24.546346 [UL-PHY0 ] [I] [   831.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=85.8us
+2024-03-23T21:29:24.590139 [UL-PHY0 ] [I] [   835.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=91.0us
+2024-03-23T21:29:24.633465 [UL-PHY0 ] [I] [   839.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.1us
+2024-03-23T21:29:24.677112 [UL-PHY0 ] [I] [   843.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.6us
+2024-03-23T21:29:24.720643 [UL-PHY0 ] [I] [   847.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.0us
+2024-03-23T21:29:24.763491 [UL-PHY0 ] [I] [   851.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.0us
+2024-03-23T21:29:24.806760 [UL-PHY0 ] [I] [   855.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.2us
+2024-03-23T21:29:24.850065 [UL-PHY0 ] [I] [   859.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=99.3us
+2024-03-23T21:29:24.894676 [UL-PHY0 ] [I] [   863.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.8us
+2024-03-23T21:29:24.937458 [UL-PHY0 ] [I] [   867.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.8us
+2024-03-23T21:29:24.980809 [UL-PHY0 ] [I] [   871.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.9us
+2024-03-23T21:29:25.024440 [UL-PHY0 ] [I] [   875.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.3us
+2024-03-23T21:29:25.068055 [UL-PHY0 ] [I] [   879.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.5us
+2024-03-23T21:29:25.111049 [UL-PHY0 ] [I] [   883.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:25.154474 [UL-PHY0 ] [I] [   887.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.4us
+2024-03-23T21:29:25.198166 [UL-PHY0 ] [I] [   891.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.2us
+2024-03-23T21:29:25.241799 [UL-PHY0 ] [I] [   895.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.9us
+2024-03-23T21:29:25.284638 [UL-PHY0 ] [I] [   899.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.0us
+2024-03-23T21:29:25.328070 [UL-PHY0 ] [I] [   903.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=73.2us
+2024-03-23T21:29:25.372339 [UL-PHY0 ] [I] [   907.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=165.2us
+2024-03-23T21:29:25.415407 [UL-PHY0 ] [I] [   911.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.4us
+2024-03-23T21:29:25.458449 [UL-PHY0 ] [I] [   915.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=95.5us
+2024-03-23T21:29:25.502540 [UL-PHY0 ] [I] [   919.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=93.2us
+2024-03-23T21:29:25.545535 [UL-PHY0 ] [I] [   923.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=114.5us
+2024-03-23T21:29:25.588470 [UL-PHY0 ] [I] [   927.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=80.3us
+2024-03-23T21:29:25.631530 [UL-PHY0 ] [I] [   931.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.3us
+2024-03-23T21:29:25.674946 [UL-PHY0 ] [I] [   935.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=79.0us
+2024-03-23T21:29:25.717646 [UL-PHY0 ] [I] [   939.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.0us
+2024-03-23T21:29:25.761209 [UL-PHY0 ] [I] [   943.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.6us
+2024-03-23T21:29:25.805067 [UL-PHY0 ] [I] [   947.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=98.3us
+2024-03-23T21:29:25.848218 [UL-PHY0 ] [I] [   951.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.5us
+2024-03-23T21:29:25.892923 [UL-PHY0 ] [I] [   955.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.8us
+2024-03-23T21:29:25.937540 [UL-PHY0 ] [I] [   959.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.9us
+2024-03-23T21:29:25.981467 [UL-PHY0 ] [I] [   963.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.5us
+2024-03-23T21:29:26.026848 [UL-PHY0 ] [I] [   967.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.0us
+2024-03-23T21:29:26.071483 [UL-PHY0 ] [I] [   971.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.0us
+2024-03-23T21:29:26.115125 [UL-PHY0 ] [I] [   975.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.1us
+2024-03-23T21:29:26.160133 [UL-PHY0 ] [I] [   979.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.4us
+2024-03-23T21:29:26.204541 [UL-PHY0 ] [I] [   983.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=77.5us
+2024-03-23T21:29:26.249215 [UL-PHY0 ] [I] [   987.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:26.293882 [UL-PHY0 ] [I] [   991.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.6us
+2024-03-23T21:29:26.338122 [UL-PHY0 ] [I] [   995.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.3us
+2024-03-23T21:29:26.382577 [UL-PHY0 ] [I] [   999.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.5us
+2024-03-23T21:29:26.427280 [UL-PHY0 ] [I] [  1003.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=99.3us
+2024-03-23T21:29:26.471978 [UL-PHY0 ] [I] [  1007.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=78.4us
+2024-03-23T21:29:26.515879 [UL-PHY0 ] [I] [  1011.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.2us
+2024-03-23T21:29:26.561306 [UL-PHY0 ] [I] [  1015.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.4us
+2024-03-23T21:29:26.604919 [UL-PHY0 ] [I] [  1019.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=97.1us
+2024-03-23T21:29:26.649506 [UL-PHY0 ] [I] [  1023.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.2us
+2024-03-23T21:29:26.694435 [UL-PHY0 ] [I] [     3.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=92.8us
+2024-03-23T21:29:26.738879 [UL-PHY0 ] [I] [     7.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.9us
+2024-03-23T21:29:26.783469 [UL-PHY0 ] [I] [    11.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=90.6us
+2024-03-23T21:29:26.827091 [UL-PHY0 ] [I] [    15.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=76.5us
+2024-03-23T21:29:26.872776 [UL-PHY0 ] [I] [    19.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=93.3us
+2024-03-23T21:29:26.917132 [UL-PHY0 ] [I] [    23.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.0us
+2024-03-23T21:29:26.961798 [UL-PHY0 ] [I] [    27.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=96.4us
+2024-03-23T21:29:27.006414 [UL-PHY0 ] [I] [    31.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=75.7us
+2024-03-23T21:29:27.050418 [UL-PHY0 ] [I] [    35.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=94.6us
+2024-03-23T21:29:27.095080 [UL-PHY0 ] [I] [    39.9] PUCCH: rnti=0x4601 format=2 prb=[2, 3) prb2=na symb=[12, 14) sr=0 csi1=1111 t=74.9us
+2024-03-23T21:29:27.139753 [UL-PHY0 ] [I] [    43.9] PUCCH: rnti=0x4601 format=1 prb1=49 prb2=na symb=[0, 14) cs=0 occ=0 sr=no t=90.0us

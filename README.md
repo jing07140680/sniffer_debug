@@ -3,13 +3,13 @@
 ##case1
 UE: srsRAN_4G(release 22.04)
 gNB: srsRAN_Project(release 23.5)
-
-Settings:
 band: 3
-arfcn: 38410
 bandwith: 10MHz
 
-Forced center frequency (ssb_freq and the dl_freq) aligned
-Complained Bandwidth larger than 10MHz
-UE cannot sync with gNB
+I first tried sampling rate 11.52 to make sure the configuration and communication between gNB and UE is correct.
+Then try to force center frequency (ssb_freq and the dl_freq) aligned (arfcn: 38410).
+But the UE cannot sync with gNB.
+
+Besides release 22.04 complains the bandwidth confiugration larger than 10MHz
+
 

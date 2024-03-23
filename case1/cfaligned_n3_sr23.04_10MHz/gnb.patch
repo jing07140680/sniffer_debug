@@ -1,0 +1,13 @@
+diff --git a/lib/ran/band_helper.cpp b/lib/ran/band_helper.cpp
+index 98bfb7149..76057edfc 100644
+--- a/lib/ran/band_helper.cpp
++++ b/lib/ran/band_helper.cpp
+@@ -68,7 +68,7 @@ static constexpr std::array<nr_band_raster, nof_nr_DL_bands_fr1> nr_band_table_f
+     // clang-format off
+     {nr_band::n1,    delta_freq_raster::kHz100, 384000, 20, 396000, 422000, 20, 434000},
+     {nr_band::n2,    delta_freq_raster::kHz100, 370000, 20, 382000, 386000, 20, 398000},
+-    {nr_band::n3,    delta_freq_raster::kHz100, 342000, 20, 357000, 361000, 20, 376000},
++    {nr_band::n3,    delta_freq_raster::kHz100, 342000, 10, 357000, 361000, 10, 376000},
+     {nr_band::n5,    delta_freq_raster::kHz100, 164800, 20, 169800, 173800, 20, 178800},
+     {nr_band::n7,    delta_freq_raster::kHz100, 500000, 20, 514000, 524000, 20, 538000},
+     {nr_band::n8,    delta_freq_raster::kHz100, 176000, 20, 183000, 185000, 20, 192000},

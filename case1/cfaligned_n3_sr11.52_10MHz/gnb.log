@@ -1,0 +1,41 @@
+2024-03-23T21:24:41.314386 [GNB     ] [W] CPU0 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314408 [GNB     ] [W] CPU1 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314418 [GNB     ] [W] CPU2 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314429 [GNB     ] [W] CPU3 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314439 [GNB     ] [W] CPU4 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314449 [GNB     ] [W] CPU5 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314459 [GNB     ] [W] CPU6 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314470 [GNB     ] [W] CPU7 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314480 [GNB     ] [W] CPU8 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314491 [GNB     ] [W] CPU9 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314502 [GNB     ] [W] CPU10 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314512 [GNB     ] [W] CPU11 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314522 [GNB     ] [W] CPU12 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314532 [GNB     ] [W] CPU13 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314542 [GNB     ] [W] CPU14 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314554 [GNB     ] [W] CPU15 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314564 [GNB     ] [W] CPU16 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314574 [GNB     ] [W] CPU17 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314584 [GNB     ] [W] CPU18 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314594 [GNB     ] [W] CPU19 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314604 [GNB     ] [W] CPU20 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314614 [GNB     ] [W] CPU21 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314624 [GNB     ] [W] CPU22 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314634 [GNB     ] [W] CPU23 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314644 [GNB     ] [W] CPU24 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314654 [GNB     ] [W] CPU25 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314664 [GNB     ] [W] CPU26 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314674 [GNB     ] [W] CPU27 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314684 [GNB     ] [W] CPU28 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314694 [GNB     ] [W] CPU29 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314704 [GNB     ] [W] CPU30 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314714 [GNB     ] [W] CPU31 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-23T21:24:41.314727 [GNB     ] [W] DRM KMS polling is enabled, which may hinder performance. You can disable it using the "srsran_performance" script
+2024-03-23T21:24:41.314945 [PCAP    ] [E] Failed to open file /tmp/gnb_ngap.pcap for writing: Permission denied
+2024-03-23T21:24:41.315118 [PCAP    ] [E] Failed to open file /tmp/gnb_mac.pcap for writing: Permission denied
+2024-03-23T21:24:41.318216 [NGAP    ] [I] Sending NgSetupRequest
+2024-03-23T21:24:41.318353 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:24:41.326249 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-23T21:24:41.345626 [zmq:tx:0:0] [I] Binding to address tcp://127.0.0.1:2000.
+2024-03-23T21:24:41.372716 [zmq:rx:0:0] [I] Connecting to address tcp://127.0.0.1:2001.
+2024-03-23T21:24:41.534247 [SCHED   ] [I] [     0.0] Cell with cell_index=0 was configured.

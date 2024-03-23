@@ -1,0 +1,13 @@
+diff --git a/lib/include/srsran/common/band_helper.h b/lib/include/srsran/common/band_helper.h
+index caa230a67..b76e610f2 100644
+--- a/lib/include/srsran/common/band_helper.h
++++ b/lib/include/srsran/common/band_helper.h
+@@ -341,7 +341,7 @@ private:
+       // clang-format off
+     {1, KHZ_100, 384000, 20, 396000, 422000, 20, 434000},
+     {2, KHZ_100, 370000, 20, 382000, 386000, 20, 398000},
+-    {3, KHZ_100, 342000, 20, 357000, 361000, 20, 376000},
++    {3, KHZ_100, 342000, 10, 357000, 361000, 10, 376000},
+ 
+     {5, KHZ_100, 164800, 20, 169800, 173800, 20, 178800},
+ 
