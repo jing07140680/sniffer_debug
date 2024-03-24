@@ -38,10 +38,9 @@ Collected IQ samples.
 MIB decoded.
 Decode DCI, failed.
 
+IQsamples file is at: https://drive.google.com/drive/folders/1XpqJkzNukiZE9lJt90GcJfn6xDsRjzAr?usp=drive_link
 
-##case4
+## case4
 UE: srsRAN_4G(release 23.11)
 gNB: srsRAN_Project(23.5)
 Plan to see if this one works
-
-IQsamples file is at: https://drive.google.com/drive/folders/1XpqJkzNukiZE9lJt90GcJfn6xDsRjzAr?usp=drive_link
