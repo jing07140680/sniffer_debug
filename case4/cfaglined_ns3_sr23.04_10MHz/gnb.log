@@ -1,0 +1,153 @@
+2024-03-24T00:57:29.703957 [GNB     ] [W] CPU0 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.703992 [GNB     ] [W] CPU1 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704009 [GNB     ] [W] CPU2 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704026 [GNB     ] [W] CPU3 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704042 [GNB     ] [W] CPU4 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704058 [GNB     ] [W] CPU5 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704074 [GNB     ] [W] CPU6 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704090 [GNB     ] [W] CPU7 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704106 [GNB     ] [W] CPU8 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704122 [GNB     ] [W] CPU9 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704141 [GNB     ] [W] CPU10 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704157 [GNB     ] [W] CPU11 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704173 [GNB     ] [W] CPU12 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704189 [GNB     ] [W] CPU13 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704205 [GNB     ] [W] CPU14 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704222 [GNB     ] [W] CPU15 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704237 [GNB     ] [W] CPU16 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704253 [GNB     ] [W] CPU17 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704269 [GNB     ] [W] CPU18 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704285 [GNB     ] [W] CPU19 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704301 [GNB     ] [W] CPU20 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704320 [GNB     ] [W] CPU21 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704336 [GNB     ] [W] CPU22 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704352 [GNB     ] [W] CPU23 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704367 [GNB     ] [W] CPU24 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704383 [GNB     ] [W] CPU25 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704399 [GNB     ] [W] CPU26 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704415 [GNB     ] [W] CPU27 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704431 [GNB     ] [W] CPU28 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704446 [GNB     ] [W] CPU29 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704462 [GNB     ] [W] CPU30 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704478 [GNB     ] [W] CPU31 scaling governor is not set to performance, which may hinder performance. You can set it to performance using the "srsran_performance" script
+2024-03-24T00:57:29.704498 [GNB     ] [W] DRM KMS polling is enabled, which may hinder performance. You can disable it using the "srsran_performance" script
+2024-03-24T00:57:29.704796 [PCAP    ] [E] Failed to open file /tmp/gnb_ngap.pcap for writing: Permission denied
+2024-03-24T00:57:29.705073 [PCAP    ] [E] Failed to open file /tmp/gnb_mac.pcap for writing: Permission denied
+2024-03-24T00:57:29.705788 [MAC     ] [D] [     0.0] Synchronous slot indication processing selected for L2
+2024-03-24T00:57:29.709451 [RRC     ] [D] 5QI DRB config. 5QI=0x7 PDCP=rb_type=DRB rlc_mode=UM int_req=false cip_req=true TX=[sn_size=12 discard_timer=-1] RX=[sn_size=12 t_reordering=100 out_of_order=false]
+2024-03-24T00:57:29.709452 [RRC     ] [D] 5QI DRB config. 5QI=0x9 PDCP=rb_type=DRB rlc_mode=AM int_req=false cip_req=true TX=[sn_size=12 discard_timer=-1] RX=[sn_size=12 t_reordering=220 out_of_order=false]
+2024-03-24T00:57:29.709769 [NGAP    ] [I] Sending NgSetupRequest
+2024-03-24T00:57:29.709960 [NGAP    ] [D] Tx NGAP PDU: {
+  "initiatingMessage": {
+    "procedureCode": 21,
+    "criticality": "reject",
+    "value": {
+      "NGSetupRequest": {
+        "protocolIEs": {
+          {
+            "id": 27,
+            "criticality": "reject",
+            "value": {
+              "globalGNB-ID": {
+                "pLMNIdentity": "99f907",
+                "gNB-ID": {
+                  "gNB-ID": "0000000000000110011011"
+                }
+              }
+            }
+          },
+          {
+            "id": 82,
+            "criticality": "ignore",
+            "value": "srsgnb01"
+          },
+          {
+            "id": 102,
+            "criticality": "reject",
+            "value": [
+              {
+                "tAC": "000001",
+                "broadcastPLMNList": [
+                  {
+                    "pLMNIdentity": "99f907",
+                    "tAISliceSupportList": [
+                      {
+                        "s-NSSAI": {
+                          "sST": "01"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "criticality": "ignore",
+            "value": "v256"
+          }
+        }
+      }
+    }
+  }
+}
+2024-03-24T00:57:29.710090 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-24T00:57:29.716804 [PCAP    ] [E] Failed to write to pcap: Permission denied
+2024-03-24T00:57:29.716867 [NGAP    ] [D] Handling PDU of type "successfulOutcome.NGSetupResponse"
+2024-03-24T00:57:29.716923 [NGAP    ] [D] Rx NGAP PDU: {
+  "successfulOutcome": {
+    "procedureCode": 21,
+    "criticality": "reject",
+    "value": {
+      "NGSetupResponse": {
+        "protocolIEs": {
+          {
+            "id": 1,
+            "criticality": "reject",
+            "value": "open5gs-amf0"
+          },
+          {
+            "id": 96,
+            "criticality": "reject",
+            "value": [
+              {
+                "gUAMI": {
+                  "pLMNIdentity": "99f907",
+                  "aMFRegionID": "00000010",
+                  "aMFSetID": "0000000001",
+                  "aMFPointer": "000000"
+                }
+              }
+            ]
+          },
+          {
+            "id": 86,
+            "criticality": "ignore",
+            "value": 255
+          },
+          {
+            "id": 80,
+            "criticality": "reject",
+            "value": [
+              {
+                "pLMNIdentity": "99f907",
+                "sliceSupportList": [
+                  {
+                    "s-NSSAI": {
+                      "sST": "01"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+2024-03-24T00:57:29.716983 [NGAP    ] [D] Received PDU with successful outcome
+2024-03-24T00:57:29.749064 [zmq:tx:0:0] [I] Binding to address tcp://127.0.0.1:2000.
+2024-03-24T00:57:29.786626 [zmq:rx:0:0] [I] Connecting to address tcp://127.0.0.1:2001.
+2024-03-24T00:57:30.004499 [SCHED   ] [I] [     0.0] Cell with cell_index=0 was configured.

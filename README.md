@@ -20,7 +20,7 @@ band: 3
 bandwidth: 10MHz
 
 Do the connection check first, passed.
-Force DL center frquency to be the same as SSB, failed.
+Force DL center frquency to be the same as SSB, failed. (UE won't Sync)
 
 Maybe I should force ssb cf aligend with DL frequency instead?
 The reason I moved DL cf is because I tried to move SSB but seems there is an algorithm about how to choose best SSB in frequency so that it has less overlapp with some other blocks (cannot remeber) in newest release. Not sure if it is the case in this release, might need to check.
@@ -43,4 +43,8 @@ IQsamples file is at: https://drive.google.com/drive/folders/1XpqJkzNukiZE9lJt90
 ## case4
 UE: srsRAN_4G(release 23.11)
 gNB: srsRAN_Project(23.5)
-Plan to see if this one works
+band:3
+bandwidth: 10MHz
+
+Do the connection check first, passed.
+Force DL center frquency to be the same as SSB, failed. (UE won't sync)
