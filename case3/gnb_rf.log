@@ -1,0 +1,39 @@
+
+The PRACH detector will not meet the performance requirements with the configuration {Format 0, ZCZ 0, SCS 1.25kHz, Rx ports 1}.
+crbs_ssb:3,offset:38,rb_coreset:96
+crbs_ssb:9,offset:38,rb_coreset:96
+crbs_ssb:16,offset:38,rb_coreset:96
+crbs_ssb:23,offset:38,rb_coreset:96
+crbs_ssb:29,offset:38,rb_coreset:96
+crbs_ssb:36,offset:38,rb_coreset:96
+crbs_ssb:43,offset:38,rb_coreset:96
+crbs_ssb:49,offset:38,rb_coreset:96
+crbs_ssb:56,offset:38,rb_coreset:96
+crbs_ssb:63,offset:38,rb_coreset:96
+crbs_ssb:69,offset:38,rb_coreset:96
+crbs_ssb:76,offset:38,rb_coreset:96
+crbs_ssb:83,offset:38,rb_coreset:96
+Lower PHY in executor blocking mode.
+
+--== srsRAN gNB (commit bcf941b34) ==--
+
+Connecting to AMF on 10.53.1.2:38412
+crbs_ssb:3,offset:38,rb_coreset:96
+crbs_ssb:9,offset:38,rb_coreset:96
+crbs_ssb:16,offset:38,rb_coreset:96
+crbs_ssb:23,offset:38,rb_coreset:96
+crbs_ssb:29,offset:38,rb_coreset:96
+crbs_ssb:36,offset:38,rb_coreset:96
+crbs_ssb:43,offset:38,rb_coreset:96
+crbs_ssb:49,offset:38,rb_coreset:96
+crbs_ssb:56,offset:38,rb_coreset:96
+crbs_ssb:63,offset:38,rb_coreset:96
+crbs_ssb:69,offset:38,rb_coreset:96
+crbs_ssb:76,offset:38,rb_coreset:96
+crbs_ssb:83,offset:38,rb_coreset:96
+Available radio types: zmq.
+Cell pci=1, bw=20 MHz, dl_arfcn=368410 (n3), dl_freq=1842.05 MHz, dl_ssb_arfcn=368410, ul_freq=1747.05 MHz
+
+==== gNodeB started ===
+Type <t> to view trace
+Stopping ..

@@ -1,0 +1,31 @@
+[info] [18:12:17.018838 thread 435138] [config.h:76] Loading configuration file ../SpriteLab-Private5G.toml
+[info] [18:12:17.961105 thread 435138] [syncer.cc:368] Got MIB
+SSB 
+ Cell ID: 1 
+ MIB: SFN: 128, SCS: 0 
+[info] [18:12:18.270832 thread 435138] [syncer.cc:368] Got MIB
+SSB 
+ Cell ID: 1 
+ MIB: SFN: 135, SCS: 0 
+[info] [18:12:18.364778 thread 435138] [syncer.cc:368] Got MIB
+SSB 
+ Cell ID: 1 
+ MIB: SFN: 140, SCS: 0 
+[info] [18:12:18.407593 thread 435138] [syncer.cc:368] Got MIB
+SSB 
+ Cell ID: 1 
+ MIB: SFN: 143, SCS: 0 
+[info] [18:12:18.527566 thread 435138] [syncer.cc:368] Got MIB
+SSB 
+ Cell ID: 1 
+ MIB: SFN: 147, SCS: 0 
+[info] [18:12:18.673031 thread 435138] [syncer.cc:368] Got MIB
+SSB 
+ Cell ID: 1 
+ MIB: SFN: 153, SCS: 0 
+[info] [18:12:21.456717 thread 435147] [pdcch.cc:518] 153 Possible DCI with correlation 0.6232229 at scrambling ID 1 and aggregation level AL 1 at Cand. Index 4 in slot 5
+[info] [18:12:27.132263 thread 435147] [pdcch.cc:518] 153 Possible DCI with correlation 0.60095596 at scrambling ID 1 and aggregation level AL 1 at Cand. Index 6 in slot 6
+[info] [18:12:29.738088 thread 435147] [pdcch.cc:518] 153 Possible DCI with correlation 0.6009569 at scrambling ID 1 and aggregation level AL 1 at Cand. Index 6 in slot 6
+[info] [18:12:30.718649 thread 435147] [pdcch.cc:518] 153 Possible DCI with correlation 0.6009567 at scrambling ID 1 and aggregation level AL 1 at Cand. Index 6 in slot 6
+[info] [18:12:36.038706 thread 435147] [pdcch.cc:518] 153 Possible DCI with correlation 0.6009557 at scrambling ID 1 and aggregation level AL 1 at Cand. Index 6 in slot 6
+[info] [18:12:37.696038 thread 435147] [pdcch.cc:518] 153 Possible DCI with correlation 0.6009565 at scrambling ID 1 and aggregation level AL 1 at Cand. Index 6 in slot 6
