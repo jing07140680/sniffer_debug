@@ -1,0 +1,164 @@
+diff --git a/apps/examples/phy/radio_ssb.cpp b/apps/examples/phy/radio_ssb.cpp
+index 7d08f361d..d8043551d 100644
+--- a/apps/examples/phy/radio_ssb.cpp
++++ b/apps/examples/phy/radio_ssb.cpp
+@@ -495,7 +495,7 @@ int main(int argc, char** argv)
+                             cp.to_string(),
+                             to_numerology_value(scs),
+                             srate);
+-
++ 
+   std::unordered_map<std::string, std::unique_ptr<task_worker>> workers;
+   std::unique_ptr<task_executor>                                async_task_executor;
+   std::unique_ptr<task_executor>                                rx_task_executor;
+@@ -544,7 +544,7 @@ int main(int argc, char** argv)
+     os_sched_affinity_bitmask   low_dl_affinity;
+     low_rx_affinity.set(0);
+     low_tx_affinity.set(1);
+-    low_ul_affinity.set(2);
++    low_ul_affinity.set(2); 
+     low_dl_affinity.set(3);
+     workers.emplace(
+         std::make_pair("async_thread", std::make_unique<task_worker>("async_thread", 2 * nof_sectors * nof_ports)));
+diff --git a/docker/open5gs/subscriber_db.csv.example b/docker/open5gs/subscriber_db.csv.example
+index e9a82814c..774d6af46 100644
+--- a/docker/open5gs/subscriber_db.csv.example
++++ b/docker/open5gs/subscriber_db.csv.example
+@@ -13,6 +13,6 @@
+ #
+ # Note: Lines starting by '#' are ignored and will be overwritten
+ # List of UEs with IMSI, and key increasing by one for each new UE. Useful for testing with AmariUE simulator and ue_count option
+-ue01,001010123456789,00112233445566778899aabbccddeeff,opc,63bfa50ee6523365ff14c1f45f88737d,9001,9,10.45.1.2
++ue01,001010123456780,00112233445566778899aabbccddeeff,opc,63bfa50ee6523365ff14c1f45f88737d,9001,9,10.45.1.2
+ ue02,001010123456790,00112233445566778899aabbccddef00,opc,63bfa50ee6523365ff14c1f45f88737d,9001,9,10.45.2.2
+ ue03,001010123456791,00112233445566778899aabbccddef01,opc,63bfa50ee6523365ff14c1f45f88737d,9001,9,10.45.3.2
+diff --git a/lib/phy/upper/channel_processors/ssb_processor_impl.cpp b/lib/phy/upper/channel_processors/ssb_processor_impl.cpp
+index d92fdaea2..74d20f49a 100644
+--- a/lib/phy/upper/channel_processors/ssb_processor_impl.cpp
++++ b/lib/phy/upper/channel_processors/ssb_processor_impl.cpp
+@@ -66,7 +66,7 @@ void ssb_processor_impl::process(resource_grid_writer& grid, const pdu_t& pdu)
+   modulator_config.amplitude            = 1.0F;
+   modulator_config.ports                = pdu.ports;
+ 
+-  // Modulate PBCH
++  // Modulate PBCH 
+   modulator->put(encoded_bits, grid, modulator_config);
+ 
+   // Create DMRS for PBCH configuration
+diff --git a/lib/ran/band_helper.cpp b/lib/ran/band_helper.cpp
+index 1fa0e1fa8..0173314c5 100644
+--- a/lib/ran/band_helper.cpp
++++ b/lib/ran/band_helper.cpp
+@@ -69,7 +69,7 @@ static constexpr std::array<nr_band_raster, nof_nr_DL_bands_fr1> nr_band_table_f
+     // clang-format off
+     {nr_band::n1,    delta_freq_raster::kHz100, 384000, 20, 396000, 422000, 20, 434000},
+     {nr_band::n2,    delta_freq_raster::kHz100, 370000, 20, 382000, 386000, 20, 398000},
+-    {nr_band::n3,    delta_freq_raster::kHz100, 342000, 20, 357000, 361000, 20, 376000},
++    {nr_band::n3,    delta_freq_raster::kHz100, 342000, 10, 357000, 361000, 10, 376000},
+     {nr_band::n5,    delta_freq_raster::kHz100, 164800, 20, 169800, 173800, 20, 178800},
+     {nr_band::n7,    delta_freq_raster::kHz100, 500000, 20, 514000, 524000, 20, 538000},
+     {nr_band::n8,    delta_freq_raster::kHz100, 176000, 20, 183000, 185000, 20, 192000},
+@@ -1271,7 +1271,7 @@ srsran::band_helper::get_ssb_coreset0_freq_location_for_cset0_idx(unsigned
+     const bool coreset0_not_below_pointA = crbs_ssb >= static_cast<unsigned>(coreset0_cfg.offset);
+     const bool coreset0_not_above_bw_ub =
+         crbs_ssb - static_cast<unsigned>(coreset0_cfg.offset) + coreset0_cfg.nof_rb_coreset <= n_rbs;
+-
++    printf("crbs_ssb:%u,offset:%u,rb_coreset:%u\n",crbs_ssb,static_cast<unsigned>(coreset0_cfg.offset),coreset0_cfg.nof_rb_coreset);
+     // CORESET#0 number of symbols should not overlap with SSB symbols.
+     const bool ss0_not_overlapping_with_ssb_symbols =
+         ss0_config.offset == 0 ? coreset0_cfg.nof_symb_coreset <= du_cfg.get_ssb_first_symbol() : true;
+diff --git a/lib/scheduler/config/serving_cell_config_factory.cpp b/lib/scheduler/config/serving_cell_config_factory.cpp
+index 0c999c786..f325b343a 100644
+--- a/lib/scheduler/config/serving_cell_config_factory.cpp
++++ b/lib/scheduler/config/serving_cell_config_factory.cpp
+@@ -73,6 +73,7 @@ cell_config_builder_params_extended::cell_config_builder_params_extended(const c
+       ssb_freq_loc = band_helper::get_ssb_coreset0_freq_location_for_cset0_idx(
+           dl_arfcn, *band, cell_nof_crbs, scs_common, ssb_scs, search_space0_index, coreset0_index.value());
+     } else {
++      //printf("here");
+       ssb_freq_loc = band_helper::get_ssb_coreset0_freq_location(
+           dl_arfcn, *band, cell_nof_crbs, scs_common, ssb_scs, search_space0_index, max_coreset0_duration);
+     }
+@@ -82,6 +83,7 @@ cell_config_builder_params_extended::cell_config_builder_params_extended(const c
+     offset_to_point_a = ssb_freq_loc->offset_to_point_A;
+     coreset0_index    = ssb_freq_loc->coreset0_idx;
+     k_ssb             = ssb_freq_loc->k_ssb;
++    //printf("%d,%d\n",ssb_freq_loc->offset_to_point_A.to_uint(),ssb_freq_loc->k_ssb.to_uint());
+   }
+ 
+   // Compute and store final SSB position based on (selected) values.
+@@ -193,6 +195,7 @@ srsran::config_helpers::make_default_coreset0_config(const cell_config_builder_p
+   const int rb_start = params.scs_common == subcarrier_spacing::kHz15
+                            ? static_cast<int>(params.offset_to_point_a->value()) - desc.offset
+                            : static_cast<int>(params.offset_to_point_a->value() / 2) - desc.offset;
++  //printf("rb_start:%d,offset_to_point_a:%d,desc.offset:%d\n",rb_start,static_cast<int>(params.offset_to_point_a->value()),desc.offset);
+   if (rb_start < 0) {
+     report_error("Coreset#0 CRB starts before pointA.\n");
+   }
+@@ -787,6 +790,7 @@ uint8_t srsran::config_helpers::compute_max_nof_candidates(aggregation_level
+   // 1 CCE = 6 {PRB, symbol}. e.g. 3 PRBs over 2 symbols or 6 PRBs over 1 symbol, etc.
+   // Example: 3 Frequency domain resources, 2 symbol duration contains 6 CCEs.
+   const unsigned max_coreset_cces   = cs_cfg.freq_domain_resources().count() * cs_cfg.duration;
++  //printf("%lu\n",cs_cfg.freq_domain_resources().count());
+   unsigned       max_nof_candidates = max_coreset_cces / to_nof_cces(aggr_lvl);
+   // See TS 38.331, SearchSpace IE.
+   // aggregationLevelX - ENUMERATED {n0, n1, n2, n3, n4, n5, n6, n8}.
+diff --git a/lib/scheduler/pdcch_scheduling/pdcch_resource_allocator_impl.cpp b/lib/scheduler/pdcch_scheduling/pdcch_resource_allocator_impl.cpp
+index 02f2a8037..1cd0f956a 100644
+--- a/lib/scheduler/pdcch_scheduling/pdcch_resource_allocator_impl.cpp
++++ b/lib/scheduler/pdcch_scheduling/pdcch_resource_allocator_impl.cpp
+@@ -150,7 +150,7 @@ pdcch_ul_information* pdcch_resource_allocator_impl::alloc_ul_pdcch_ue(cell_slot
+   const bwp_configuration&         bwp_cfg        = ss_cfg.bwp->ul_common->generic_params;
+   span<const pdcch_candidate_type> candidates     = ss_cfg.get_pdcch_candidates(aggr_lvl, slot_alloc.slot);
+   span<const crb_index_list>       candidate_crbs = ss_cfg.get_crb_list_of_pdcch_candidates(aggr_lvl, slot_alloc.slot);
+-
++ 
+   return alloc_ul_pdcch_helper(
+       slot_alloc, rnti, bwp_cfg, *ss_cfg.coreset, *ss_cfg.cfg, aggr_lvl, candidates, candidate_crbs);
+ }
+@@ -167,7 +167,7 @@ pdcch_ul_information* pdcch_resource_allocator_impl::alloc_ul_pdcch_helper(cell_
+   if (not pdcch_helper::is_pdcch_monitoring_active(slot_alloc.slot, ss_cfg)) {
+     // PDCCH monitoring is not active in this slot.
+     return nullptr;
+-  }
++  } 
+ 
+   // Verify RNTI is unique.
+   for (const pdcch_ul_information& pdcch : slot_alloc.result.dl.ul_pdcchs) {
+@@ -243,9 +243,9 @@ pdcch_dl_information* pdcch_resource_allocator_impl::alloc_dl_pdcch_helper(cell_
+       (ss_cfg.is_common_search_space() ||
+        (variant_get<search_space_configuration::ue_specific_dci_format>(ss_cfg.get_monitored_dci_formats()) ==
+         search_space_configuration::ue_specific_dci_format::f0_0_and_f1_0))
+-          ? "1_0"
++          ? "1_0"  
+           : "1_1";
+-
++  //printf("here,slot:%d,dci_format:%s,aggr_lvl:%d,sc_id:%d\n",slot_alloc.slot.to_uint(),pdcch.ctx.context.dci_format,to_aggregation_level_index(aggr_lvl),pdcch.ctx.n_id_pdcch_data);
+   // Allocate a position for DL PDCCH in CORESET.
+   pdcch_slot_allocator& pdcch_alloc = get_pdcch_slot_alloc(slot_alloc.slot);
+   if (not pdcch_alloc.alloc_pdcch(pdcch.ctx, slot_alloc, ss_cfg, candidates, candidate_crbs)) {
+diff --git a/lib/scheduler/pdcch_scheduling/pdcch_slot_resource_allocator.cpp b/lib/scheduler/pdcch_scheduling/pdcch_slot_resource_allocator.cpp
+index f4f3304c8..1f9c66207 100644
+--- a/lib/scheduler/pdcch_scheduling/pdcch_slot_resource_allocator.cpp
++++ b/lib/scheduler/pdcch_scheduling/pdcch_slot_resource_allocator.cpp
+@@ -163,6 +163,7 @@ bool pdcch_slot_allocator::allocate_cce(cell_slot_resource_allocator& slot_alloc
+ 
+   // Check the current CCE position collides with an existing one.
+   ofdm_symbol_range symbols{0, (uint8_t)cs_cfg.duration};
++  //printf("duration:%d\n",(uint8_t)cs_cfg.duration);
+   if (slot_alloc.dl_res_grid.collides(record.pdcch_ctx->bwp_cfg->scs, symbols, pdcch_crbs)) {
+     // Collision detected. Try another CCE position.
+     return false;
+@@ -170,6 +171,11 @@ bool pdcch_slot_allocator::allocate_cce(cell_slot_resource_allocator& slot_alloc
+ 
+   // Allocation successful.
+   slot_alloc.dl_res_grid.fill(record.pdcch_ctx->bwp_cfg->scs, symbols, pdcch_crbs);
+-
++  /***
++  for (size_t i = 0; i < pdcch_crbs.size(); ++i) {
++    printf("%hu ", pdcch_crbs[i]);
++  }
++  printf("\n");
++  *****/
+   return true;
+ }

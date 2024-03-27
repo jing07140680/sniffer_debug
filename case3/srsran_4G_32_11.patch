@@ -1,0 +1,167 @@
+diff --git a/lib/include/srsran/common/band_helper.h b/lib/include/srsran/common/band_helper.h
+index 27c9706c3..954427766 100644
+--- a/lib/include/srsran/common/band_helper.h
++++ b/lib/include/srsran/common/band_helper.h
+@@ -341,7 +341,7 @@ private:
+       // clang-format off
+     {1, KHZ_100, 384000, 20, 396000, 422000, 20, 434000},
+     {2, KHZ_100, 370000, 20, 382000, 386000, 20, 398000},
+-    {3, KHZ_100, 342000, 20, 357000, 361000, 20, 376000},
++    {3, KHZ_100, 342000, 10, 357000, 361000, 10, 376000},
+ 
+     {5, KHZ_100, 164800, 20, 169800, 173800, 20, 178800},
+ 
+diff --git a/lib/src/phy/common/phy_common_nr.c b/lib/src/phy/common/phy_common_nr.c
+index 4524743e3..8de4f66b6 100644
+--- a/lib/src/phy/common/phy_common_nr.c
++++ b/lib/src/phy/common/phy_common_nr.c
+@@ -720,7 +720,7 @@ int srsran_coreset_zero(uint32_t                    n_cell_id,
+       SRSRAN_FLOOR(ssb_pointA_freq_offset_Hz, SRSRAN_NRE * SRSRAN_SUBC_SPACING_NR(pdcch_scs));
+   uint32_t offset_rb =
+       (ssb_pointA_freq_offset_rb > entry->offset_rb) ? (ssb_pointA_freq_offset_rb - entry->offset_rb) : 0;
+-
++  printf("entry->nof_prb:%d,wyj:ssb_pointA_freq_offset_rb:%d, entry->offset_rb:%d\n",entry->nof_prb,ssb_pointA_freq_offset_rb,entry->offset_rb);
+   // Set CORESET fields
+   coreset->id                         = 0;
+   coreset->dmrs_scrambling_id_present = false;
+@@ -850,4 +850,4 @@ bool srsran_carrier_nr_equal(const srsran_carrier_nr_t* a, const srsran_carrier_
+   ret      = ret && (a->max_mimo_layers == b->max_mimo_layers);
+ 
+   return ret;
+-}
+\ No newline at end of file
++}
+diff --git a/lib/src/phy/gnb/gnb_dl.c b/lib/src/phy/gnb/gnb_dl.c
+index c15efb747..e519abc28 100644
+--- a/lib/src/phy/gnb/gnb_dl.c
++++ b/lib/src/phy/gnb/gnb_dl.c
+@@ -268,6 +268,7 @@ gnb_dl_pdcch_put_msg(srsran_gnb_dl_t* q, const srsran_slot_cfg_t* slot_cfg, cons
+     return SRSRAN_ERROR;
+   }
+   srsran_coreset_t* coreset = &q->pdcch_cfg.coreset[dci_msg->ctx.coreset_id];
++  //printf("here:nof_freq_res:%d\n",q->pdcch_cfg.nof_freq_res);
+ 
+   if (srsran_pdcch_nr_set_carrier(&q->pdcch, &q->carrier, coreset) < SRSRAN_SUCCESS) {
+     ERROR("Error setting PDCCH carrier/CORESET");
+diff --git a/lib/src/phy/phch/pdcch_nr.c b/lib/src/phy/phch/pdcch_nr.c
+index 846c0f462..bf8ca40fe 100644
+--- a/lib/src/phy/phch/pdcch_nr.c
++++ b/lib/src/phy/phch/pdcch_nr.c
+@@ -97,6 +97,7 @@ static int srsran_pdcch_nr_get_ncce(const srsran_coreset_t*      coreset,
+   // Calculate Y_p_n for UE search space only
+   uint32_t Y_p_n = 0;
+   if (search_space->type == srsran_search_space_type_ue) {
++    //printf("srsran_search_space_type_ue\n");
+     Y_p_n = srsran_pdcch_calculate_Y_p_n(coreset->id, rnti, slot_idx);
+   }
+ 
+@@ -115,7 +116,7 @@ int srsran_pdcch_nr_locations_coreset(const srsran_coreset_t*      coreset,
+   }
+ 
+   uint32_t nof_candidates = search_space->nof_candidates[aggregation_level];
+-
++  //printf("nof_candidates:%d,aggregation_level;%d\n",nof_candidates,aggregation_level);
+   nof_candidates = SRSRAN_MIN(nof_candidates, SRSRAN_SEARCH_SPACE_MAX_NOF_CANDIDATES_NR);
+ 
+   for (uint32_t candidate = 0; candidate < nof_candidates; candidate++) {
+@@ -129,7 +130,7 @@ int srsran_pdcch_nr_locations_coreset(const srsran_coreset_t*      coreset,
+ 
+   return nof_candidates;
+ }
+-
++ 
+ int srsran_pdcch_nr_max_candidates_coreset(const srsran_coreset_t* coreset, uint32_t aggregation_level)
+ {
+   if (coreset == NULL) {
+@@ -141,7 +142,7 @@ int srsran_pdcch_nr_max_candidates_coreset(const srsran_coreset_t* coreset, uint
+ 
+   uint32_t L              = 1U << aggregation_level;
+   uint32_t nof_candidates = nof_cce / L;
+-
++  printf("here:coreset_bw:%d,nof_cce:%d,L:%d,nof_candidates:%d\n",coreset_bw,nof_cce,L,nof_candidates);
+   return SRSRAN_MIN(nof_candidates, SRSRAN_SEARCH_SPACE_MAX_NOF_CANDIDATES_NR);
+ }
+ 
+@@ -320,7 +321,8 @@ static int pdcch_nr_cce_to_reg_mapping_non_interleaved(const srsran_coreset_t*
+   uint32_t nof_cce        = 1U << dci_location->L;
+   uint32_t L              = 6;
+   uint32_t nof_reg_bundle = 6 / L;
+-
++  //printf("inpdcch_nr_cce_to_reg_mapping_non_interleaved\n");
++  //printf("nof_cce:%d,L:%d,nnof_reg_bundle:%d,ncce:%d\n",nof_cce,dci_location->L,nof_reg_bundle,dci_location->ncce);
+   // For each CCE j in the PDCCH transmission
+   for (uint32_t j = dci_location->ncce; j < dci_location->ncce + nof_cce; j++) {
+     // For each REG bundle i in the CCE j
+@@ -334,6 +336,7 @@ static int pdcch_nr_cce_to_reg_mapping_non_interleaved(const srsran_coreset_t*
+       // For each REG in the REG bundle
+       uint32_t rb_start = (i * L) / coreset->duration;
+       uint32_t rb_end   = ((i + 1) * L) / coreset->duration;
++      //printf("rb_start:%d,rb_end:%d\n",rb_start,rb_end);
+       for (uint32_t rb = rb_start; rb < rb_end; rb++) {
+         rb_mask[rb] = true;
+       }
+@@ -739,4 +742,4 @@ uint32_t srsran_pdcch_nr_info(const srsran_pdcch_nr_t* q, const srsran_pdcch_nr_
+   }
+ 
+   return len;
+-}
+\ No newline at end of file
++}
+diff --git a/srsgnb/src/stack/mac/sched_nr_signalling.cc b/srsgnb/src/stack/mac/sched_nr_signalling.cc
+index 3c4f3cc42..d44117dfa 100644
+--- a/srsgnb/src/stack/mac/sched_nr_signalling.cc
++++ b/srsgnb/src/stack/mac/sched_nr_signalling.cc
+@@ -71,6 +71,7 @@ void sched_ssb_basic(const slot_point&      sl_point,
+   }
+ 
+   uint32_t sl_cnt = sl_point.to_uint();
++  //printf("sl_cnt for mib:%d\n",sl_cnt);
+   // Perform mod operation of slot index by ssb_periodicity;
+   // "ssb_periodicity * nof_slots_per_subframe" gives the number of slots in 1 ssb_periodicity time interval
+   uint32_t sl_point_mod = sl_cnt % (ssb_periodicity * (uint32_t)sl_point.nof_slots_per_subframe());
+diff --git a/srsue/src/phy/nr/cc_worker.cc b/srsue/src/phy/nr/cc_worker.cc
+index 4c69d5dc5..ef9fdf29a 100644
+--- a/srsue/src/phy/nr/cc_worker.cc
++++ b/srsue/src/phy/nr/cc_worker.cc
+@@ -27,7 +27,7 @@
+ 
+ namespace srsue {
+ namespace nr {
+-
++  int cnt = 0;
+ cc_worker::cc_worker(uint32_t cc_idx_, srslog::basic_logger& log, state& phy_state_, const srsran::phy_cfg_nr_t& cfg) :
+   cc_idx(cc_idx_), phy(phy_state_), cfg(cfg), logger(log)
+ {
+@@ -98,7 +98,7 @@ void cc_worker::update_cfg(const srsran::phy_cfg_nr_t& new_config)
+     logger.error("Error setting NR PDCCH configuration");
+     return;
+   }
+-
++ 
+   srsran_ssb_cfg_t ssb_cfg = cfg.get_ssb_cfg();
+   ssb_cfg.srate_hz         = srsran_min_symbol_sz_rb(cfg.carrier.nof_prb) * SRSRAN_SUBC_SPACING_NR(cfg.carrier.scs);
+   if (srsran_ssb_set_cfg(&ssb, &ssb_cfg) < SRSRAN_SUCCESS) {
+@@ -533,6 +533,23 @@ bool cc_worker::work_dl()
+       }
+     }
+   }
++  cnt++;
++  if (cnt >=1000 && cnt < 11000){
++    FILE* file = fopen("iq.fc32", "a+");
++    const cf_t* in_ptr = rx_buffer[0];
++    for (size_t i = 0; i < ue_dl.fft[0].sf_sz ;i++) {
++      float real_part = __real__(*(in_ptr+i));
++      float imag_part = __imag__(*(in_ptr+i));
++      //if (real_part != 0 && imag_part != 0){
++      //   printf("iqsamples: %f,%f\n",real_part,imag_part);
++      //}
++      fwrite(&real_part, sizeof(float), 1, file);
++      fwrite(&imag_part, sizeof(float), 1, file);
++    }
++    //printf("write iq\n");
++    fclose(file);
++  }
++
+ 
+   // Run FFT
+   srsran_ue_dl_nr_estimate_fft(&ue_dl, &dl_slot_cfg);
